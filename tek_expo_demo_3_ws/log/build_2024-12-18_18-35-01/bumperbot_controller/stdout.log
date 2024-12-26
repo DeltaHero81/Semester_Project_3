@@ -1,0 +1,17 @@
+[ 20%] Built target gmock
+[ 26%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller/mecanum_drive_controller_parameters/include//mecanum_drive_controller_parameters.hpp /home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/src/mecanum_drive_controller.yaml `[0m
+[ 40%] Built target gmock_main
+[ 40%] Built target ament_cmake_python_copy_bumperbot_controller
+[ 46%] [32mBuilding CXX object CMakeFiles/test_load_mecanum_drive_controller.dir/test/test_load_mecanum_drive_controller.cpp.o[0m
+running egg_info
+writing bumperbot_controller.egg-info/PKG-INFO
+writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+writing top-level names to bumperbot_controller.egg-info/top_level.txt
+reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[ 46%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[ 46%] Built target mecanum_drive_controller_parameters
+[ 53%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable test_load_mecanum_drive_controller[0m
+[ 66%] Built target test_load_mecanum_drive_controller

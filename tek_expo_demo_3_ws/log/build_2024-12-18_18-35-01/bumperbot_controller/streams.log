@@ -1,0 +1,36 @@
+[0.049s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller -- -j8 -l8
+[0.228s] [ 20%] Built target gmock
+[0.229s] [ 26%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller/mecanum_drive_controller_parameters/include//mecanum_drive_controller_parameters.hpp /home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/src/mecanum_drive_controller.yaml `[0m
+[0.229s] [ 40%] Built target gmock_main
+[0.232s] [ 40%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.302s] [ 46%] [32mBuilding CXX object CMakeFiles/test_load_mecanum_drive_controller.dir/test/test_load_mecanum_drive_controller.cpp.o[0m
+[0.763s] running egg_info
+[0.818s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.818s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.818s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.974s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.975s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.031s] [ 46%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[1.888s] [ 46%] Built target mecanum_drive_controller_parameters
+[1.926s] [ 53%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o[0m
+[1.928s] [ 60%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o[0m
+[2.265s] In file included from [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/src/odometry.cpp:15[m[K:
+[2.265s] [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/include/mecanum_drive_controller/odometry.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Krealtime_tools/realtime_buffer.hpp: No such file or directory
+[2.266s]    19 | #include [01;31m[K"realtime_tools/realtime_buffer.hpp"[m[K
+[2.266s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.266s] compilation terminated.
+[2.268s] gmake[2]: *** [CMakeFiles/mecanum_drive_controller.dir/build.make:90: CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o] Error 1
+[2.268s] gmake[2]: *** Waiting for unfinished jobs....
+[2.575s] In file included from [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:27[m[K,
+[2.575s]                  from [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/src/mecanum_drive_controller.cpp:15[m[K:
+[2.575s] [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/include/mecanum_drive_controller/odometry.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Krealtime_tools/realtime_buffer.hpp: No such file or directory
+[2.575s]    19 | #include [01;31m[K"realtime_tools/realtime_buffer.hpp"[m[K
+[2.576s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.576s] compilation terminated.
+[2.582s] gmake[2]: *** [CMakeFiles/mecanum_drive_controller.dir/build.make:76: CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o] Error 1
+[2.582s] gmake[1]: *** [CMakeFiles/Makefile2:263: CMakeFiles/mecanum_drive_controller.dir/all] Error 2
+[2.582s] gmake[1]: *** Waiting for unfinished jobs....
+[6.798s] [ 66%] [32m[1mLinking CXX executable test_load_mecanum_drive_controller[0m
+[7.165s] [ 66%] Built target test_load_mecanum_drive_controller
+[7.166s] gmake: *** [Makefile:146: all] Error 2
+[7.169s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller -- -j8 -l8

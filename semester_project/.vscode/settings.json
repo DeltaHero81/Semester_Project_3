@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/vboxuser/semester_project/install/video_cap/lib/python3.12/site-packages",
+        "/home/vboxuser/semester_project/install/drone_localization/lib/python3.12/site-packages",
+        "/home/vboxuser/semester_project/install/drone_firmware/lib/python3.12/site-packages",
+        "/home/vboxuser/semester_project/install/drone_controller/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/vboxuser/semester_project/install/video_cap/lib/python3.12/site-packages",
+        "/home/vboxuser/semester_project/install/drone_localization/lib/python3.12/site-packages",
+        "/home/vboxuser/semester_project/install/drone_firmware/lib/python3.12/site-packages",
+        "/home/vboxuser/semester_project/install/drone_controller/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

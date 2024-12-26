@@ -1,0 +1,30 @@
+[0.053s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/rf2o_laser_odometry -- -j8 -l8
+[0.249s] [ 20%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o[0m
+[20.998s] [ 40%] [32m[1mLinking CXX executable rf2o_laser_odometry_node[0m
+[22.434s] [ 60%] Built target rf2o_laser_odometry_node
+[22.481s] [ 80%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o[0m
+[42.153s] [100%] [32m[1mLinking CXX static library librf2o_laser_odometry.a[0m
+[42.457s] [100%] Built target rf2o_laser_odometry
+[42.476s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/rf2o_laser_odometry -- -j8 -l8
+[42.478s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/rf2o_laser_odometry
+[42.490s] -- Install configuration: ""
+[42.490s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[42.514s] -- Set non-toolchain portion of runtime path of "/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node" to ""
+[42.515s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch
+[42.515s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[42.515s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[42.515s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[42.515s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[42.515s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[42.515s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[42.515s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[42.515s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[42.516s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[42.516s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[42.516s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[42.516s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[42.516s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[42.516s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[42.516s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[42.516s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[42.518s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/rf2o_laser_odometry

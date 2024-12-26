@@ -1,0 +1,1 @@
+Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papalist/tek_expo_demo_3_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2

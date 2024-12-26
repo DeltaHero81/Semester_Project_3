@@ -1,0 +1,16 @@
+In file included from [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/src/odometry.cpp:15[m[K:
+[01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/include/mecanum_drive_controller/odometry.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Krealtime_tools/realtime_buffer.hpp: No such file or directory
+   19 | #include [01;31m[K"realtime_tools/realtime_buffer.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mecanum_drive_controller.dir/build.make:90: CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:27[m[K,
+                 from [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/src/mecanum_drive_controller.cpp:15[m[K:
+[01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/include/mecanum_drive_controller/odometry.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Krealtime_tools/realtime_buffer.hpp: No such file or directory
+   19 | #include [01;31m[K"realtime_tools/realtime_buffer.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mecanum_drive_controller.dir/build.make:76: CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:263: CMakeFiles/mecanum_drive_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

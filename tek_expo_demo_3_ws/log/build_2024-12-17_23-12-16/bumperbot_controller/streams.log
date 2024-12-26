@@ -1,0 +1,68 @@
+[0.051s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller
+[0.232s] -- The C compiler identification is GNU 13.3.0
+[0.421s] -- The CXX compiler identification is GNU 13.3.0
+[0.468s] -- Detecting C compiler ABI info
+[0.692s] -- Detecting C compiler ABI info - done
+[0.719s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.719s] -- Detecting C compile features
+[0.723s] -- Detecting C compile features - done
+[0.742s] -- Detecting CXX compiler ABI info
+[0.969s] -- Detecting CXX compiler ABI info - done
+[0.992s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.992s] -- Detecting CXX compile features
+[0.999s] -- Detecting CXX compile features - done
+[1.002s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.326s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.621s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.758s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.811s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.861s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.918s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.149s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.160s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.355s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.399s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.445s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.592s] -- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)
+[2.597s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.658s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.697s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.755s] -- Found tf2_ros: 0.36.4 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[3.558s] -- Configuring done (3.5s)
+[3.573s] -- Generating done (0.0s)
+[3.590s] -- Build files have been written to: /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller
+[3.623s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller
+[3.623s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller -- -j8 -l8
+[3.832s] Built target ament_cmake_python_copy_bumperbot_controller
+[4.550s] running egg_info
+[4.553s] creating bumperbot_controller.egg-info
+[4.678s] writing bumperbot_controller.egg-info/PKG-INFO
+[4.678s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[4.678s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[4.679s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[4.947s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[4.948s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[5.066s] Built target ament_cmake_python_build_bumperbot_controller_egg
+[5.111s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller -- -j8 -l8
+[5.133s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller
+[5.247s] -- Install configuration: ""
+[5.247s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[5.247s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[5.248s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info
+[5.248s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.248s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/top_level.txt
+[5.248s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.248s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/PKG-INFO
+[5.248s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller
+[5.249s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/__init__.py
+[5.249s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/twist_relay.py
+[5.254s] Listing '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller'...
+[5.255s] Compiling '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/__init__.py'...
+[5.255s] Compiling '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/twist_relay.py'...
+[5.255s] [31mCMake Error at cmake_install.cmake:70 (file):
+[5.255s]   file INSTALL cannot find
+[5.255s]   "/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/include": No
+[5.255s]   such file or directory.
+[5.256s] 
+[5.256s] [0m
+[5.269s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller

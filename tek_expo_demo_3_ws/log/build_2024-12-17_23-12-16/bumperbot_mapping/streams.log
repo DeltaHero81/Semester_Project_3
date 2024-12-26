@@ -1,0 +1,86 @@
+[0.038s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papalist/tek_expo_demo_3_ws/src/bumperbot_mapping -DCMAKE_INSTALL_PREFIX=/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping
+[0.206s] -- The C compiler identification is GNU 13.3.0
+[0.392s] -- The CXX compiler identification is GNU 13.3.0
+[0.432s] -- Detecting C compiler ABI info
+[0.650s] -- Detecting C compiler ABI info - done
+[0.679s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.679s] -- Detecting C compile features
+[0.680s] -- Detecting C compile features - done
+[0.703s] -- Detecting CXX compiler ABI info
+[0.917s] -- Detecting CXX compiler ABI info - done
+[0.943s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.943s] -- Detecting CXX compile features
+[0.944s] -- Detecting CXX compile features - done
+[0.964s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.301s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.595s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.735s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.780s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.835s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.891s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.125s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.134s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.329s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.372s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.419s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.619s] -- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)
+[2.626s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.756s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.830s] -- Found tf2_ros: 0.36.4 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[3.621s] -- Configuring done (3.6s)
+[3.650s] -- Generating done (0.0s)
+[3.663s] -- Build files have been written to: /home/papalist/tek_expo_demo_3_ws/build/bumperbot_mapping
+[3.695s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papalist/tek_expo_demo_3_ws/src/bumperbot_mapping -DCMAKE_INSTALL_PREFIX=/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping
+[3.699s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_mapping -- -j8 -l8
+[4.289s] Built target ament_cmake_python_copy_bumperbot_mapping
+[4.645s] running egg_info
+[4.652s] creating bumperbot_mapping.egg-info
+[4.772s] writing bumperbot_mapping.egg-info/PKG-INFO
+[4.772s] writing dependency_links to bumperbot_mapping.egg-info/dependency_links.txt
+[4.775s] writing top-level names to bumperbot_mapping.egg-info/top_level.txt
+[4.775s] writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[5.077s] reading manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[5.105s] writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[5.198s] Built target ament_cmake_python_build_bumperbot_mapping_egg
+[5.229s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_mapping -- -j8 -l8
+[5.234s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_mapping
+[5.265s] -- Install configuration: ""
+[5.265s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.sh
+[5.266s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.dsv
+[5.266s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info
+[5.266s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.266s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/top_level.txt
+[5.267s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.267s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/PKG-INFO
+[5.267s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping
+[5.267s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/__init__.py
+[5.267s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/mapping_with_known_poses.py
+[5.408s] Listing '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping'...
+[5.408s] Compiling '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/__init__.py'...
+[5.409s] Compiling '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/mapping_with_known_poses.py'...
+[5.421s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/include/include
+[5.422s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/include/include/bumperbot_mapping
+[5.423s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/config
+[5.424s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/config/slam_toolbox.yaml
+[5.425s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch
+[5.425s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch/slam.launch.py
+[5.426s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps
+[5.426s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house
+[5.426s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.yaml
+[5.427s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.pgm
+[5.428s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses.py
+[5.429s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/ament_index/resource_index/package_run_dependencies/bumperbot_mapping
+[5.429s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/ament_index/resource_index/parent_prefix_path/bumperbot_mapping
+[5.430s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.sh
+[5.431s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.dsv
+[5.431s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.sh
+[5.432s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.dsv
+[5.432s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.bash
+[5.433s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.sh
+[5.434s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.zsh
+[5.435s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.dsv
+[5.435s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv
+[5.437s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/ament_index/resource_index/packages/bumperbot_mapping
+[5.437s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig.cmake
+[5.443s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig-version.cmake
+[5.443s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.xml

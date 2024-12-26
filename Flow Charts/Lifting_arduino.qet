@@ -1,0 +1,1027 @@
+<project title="Lifting_arduino" version="0.90">
+    <properties>
+        <property show="1" name="saveddate">2024. 11. 03.</property>
+        <property show="1" name="saveddate-eu">03-11-2024</property>
+        <property show="1" name="saveddate-us">2024-11-03</property>
+        <property show="1" name="savedtime">01:58</property>
+        <property show="1" name="savedfilepath">C:/SDU/Semester_3/Semester_Project_3/Flow Charts/Lifting_arduino.qet</property>
+        <property show="1" name="savedfilename">Lifting_arduino</property>
+    </properties>
+    <newdiagrams>
+        <border displayrows="true" displaycols="true" rows="8" cols="17" rowsize="80" colsize="60"/>
+        <inset plant="" title="" locmach="" author="" version="" date="null" auto_page_num="" filename="" displayAt="bottom" folio="%id/%total" indexrev=""/>
+        <conductors tension_protocol="" horizrotatetext="0" vertirotatetext="270" bus="" displaytext="1" vertical-alignment="AlignRight" conductor_section="" cable="" bicolor="false" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="_" function=""/>
+        <report label="%f-%l%c"/>
+        <xrefs>
+            <xref master_label="%f-%l%c" showpowerctc="true" xrefpos="" displayhas="cross" snapto="label" slave_label="(%f-%l%c)" powerprefix="" delayprefix="" type="commutator" offset="0" switchprefix=""/>
+            <xref master_label="%f-%l%c" showpowerctc="true" xrefpos="" displayhas="cross" snapto="label" slave_label="(%f-%l%c)" powerprefix="" delayprefix="" type="coil" offset="0" switchprefix=""/>
+            <xref master_label="%f-%l%c" showpowerctc="true" xrefpos="" displayhas="cross" snapto="label" slave_label="(%f-%l%c)" powerprefix="" delayprefix="" type="protection" offset="0" switchprefix=""/>
+        </xrefs>
+        <conductors_autonums current_autonum="" freeze_new_conductors="false"/>
+        <folio_autonums/>
+        <element_autonums freeze_new_elements="false" current_autonum=""/>
+    </newdiagrams>
+    <diagram version="0.90+c7891bc4cb0a58100c957a06d79751d3" date="null" indexrev="" rowsize="80" plant="" title="" height="1140" displaycols="true" colsize="60" auto_page_num="" locmach="" author="" cols="17" displayAt="bottom" rows="14" freezeNewConductor="false" filename="" displayrows="true" freezeNewElement="false" folio="%id/%total" order="1">
+        <defaultconductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" bus="" vertical-alignment="AlignRight" displaytext="1" conductor_section="" cable="" bicolor="false" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="_" function=""/>
+        <elements>
+            <element freezeLabel="false" prefix="" uuid="{a525acc4-fbb1-47ad-93e5-da3b084de242}" y="690" type="embed://import/20_logic/40_flowchart/souspgm01.elmt" x="160" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-6" x="40" id="0" orientation="0"/>
+                    <terminal y="36" x="40" id="1" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Motor Drive</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="4" uuid="{73a9c3e3-aa32-4bea-95cd-7edb987cc2ba}" x="5.42177" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Motor Drive</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{a3c235a3-0aa4-49d7-9bef-b722b2551d4e}" y="930" type="embed://import/20_logic/40_flowchart/ope01.elmt" x="160" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-6" x="40" id="2" orientation="0"/>
+                    <terminal y="36" x="40" id="3" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">STOP</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="4" uuid="{56ca6b84-cb92-4a7a-ad89-f0fd1f07cd43}" x="21.977" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>STOP</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{90bf29c4-0cb0-481d-81c2-0fd97daeb66e}" y="760" type="embed://import/20_logic/40_flowchart/ope01.elmt" x="160" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-6" x="40" id="4" orientation="0"/>
+                    <terminal y="36" x="40" id="5" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Wait for signal</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="3.76344" uuid="{f08c723e-19e2-45e2-b5ea-a2e56697a42d}" x="-2.59857" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Wait for signal</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{fc827a77-a97c-4162-bc6f-fec4447374bd}" y="370" type="embed://import/20_logic/40_flowchart/souspgm01.elmt" x="80" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-6" x="40" id="6" orientation="0"/>
+                    <terminal y="36" x="40" id="7" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Evasion</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="4" uuid="{bb3d190a-ff32-4ee3-9b69-7ddd6314d91c}" x="15.4944" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Evasion</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{2b11c889-67ed-4b56-a1ad-269037bbbeba}" y="290" type="embed://import/20_logic/40_flowchart/if02.elmt" x="70" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-26" x="50" id="8" orientation="0"/>
+                    <terminal y="10" x="116" id="9" orientation="1"/>
+                    <terminal y="56" x="50" id="10" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">From Camera?</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="0" uuid="{24d69ee1-e2eb-49ed-a1ab-9d7fcec840a9}" x="10" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>From Camera?</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{f9da87ae-26f8-4b44-b853-e0f1ae51bdd7}" y="440" type="embed://import/20_logic/40_flowchart/if02.elmt" x="150" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-26" x="50" id="11" orientation="0"/>
+                    <terminal y="10" x="116" id="12" orientation="1"/>
+                    <terminal y="56" x="50" id="13" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">From Raspberry?</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="-1.4432" uuid="{32e5882e-d984-4132-aa58-74a12ffb5abd}" x="3.60799" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>From Raspberry?</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{e0c466e8-92bc-467d-be1a-04710dca5474}" y="840" type="embed://import/20_logic/40_flowchart/if02.elmt" x="150" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-26" x="50" id="14" orientation="0"/>
+                    <terminal y="10" x="116" id="15" orientation="1"/>
+                    <terminal y="56" x="50" id="16" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Ultras. sensor?</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="0" uuid="{0b83dde0-87c6-4a66-96ff-e995f71c2930}" x="10" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Ultras. sensor?</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{aebe2296-3f16-4579-b5df-5ec7ecfdb949}" y="210" type="embed://import/20_logic/40_flowchart/ope01.elmt" x="80" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-6" x="40" id="17" orientation="0"/>
+                    <terminal y="36" x="40" id="18" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Wait for signal</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="3.76344" uuid="{f08c723e-19e2-45e2-b5ea-a2e56697a42d}" x="-2.59857" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Wait for signal</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{71d2be82-650d-4a18-84fa-b72966bc9524}" y="520" type="embed://import/20_logic/40_flowchart/souspgm01.elmt" x="160" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-6" x="40" id="19" orientation="0"/>
+                    <terminal y="36" x="40" id="20" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Look for wheels</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="3.00984" uuid="{2dcaa7ea-9543-4c01-be9c-94b04df9dfe0}" x="-6.84249" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Look for wheels</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{3e515bfa-0551-45ae-9f7d-5ba6a4916905}" y="240" type="embed://import/20_logic/40_flowchart/ope02.elmt" x="560" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-6" x="40" id="21" orientation="0"/>
+                    <terminal y="46" x="40" id="22" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="7" uuid="{41c91b4b-1f2c-40a2-88af-ea51ce61eb2e}" x="3" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{8d477691-5534-4e9d-98d0-95ee90ea8818}" y="1010" type="embed://import/20_logic/40_flowchart/if02.elmt" x="150" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-26" x="50" id="23" orientation="0"/>
+                    <terminal y="10" x="116" id="24" orientation="1"/>
+                    <terminal y="56" x="50" id="25" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Way clear?</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="-1.71757" uuid="{124875b2-7f41-4f8e-8094-a7103e0e6fbe}" x="17.8473" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Way clear?</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{91709b7a-ec26-4aa1-b46c-75c48532ea04}" y="980" type="embed://import/20_logic/40_flowchart/souspgm01.elmt" x="310" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-6" x="40" id="26" orientation="0"/>
+                    <terminal y="36" x="40" id="27" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Motor Drive</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="4" uuid="{f5ccd78f-4d4c-47d4-ba98-0cc9d8e29c40}" x="9" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Motor Drive</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{9748bcdb-9dc4-4a04-8ff9-a61eb4544f1f}" y="900" type="embed://import/20_logic/40_flowchart/if02.elmt" x="300" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-26" x="50" id="28" orientation="0"/>
+                    <terminal y="10" x="116" id="29" orientation="1"/>
+                    <terminal y="56" x="50" id="30" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Raspberry?</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="-0.67648" uuid="{08361e4d-a079-41e2-99b4-53a1bdc76d3e}" x="16.3235" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Raspberry?</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{f4e65f0c-9640-4b8d-8a76-c4a424f2596d}" y="170" type="embed://import/20_logic/40_flowchart/ope01.elmt" x="560" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-6" x="40" id="31" orientation="0"/>
+                    <terminal y="36" x="40" id="32" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Find middle line</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="4" uuid="{4298e392-f8e7-4c81-9011-eb43e95dade8}" x="-7.34356" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Find middle line</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{b50a5ab7-d638-4d8d-8380-9d14bc10052f}" y="110" type="embed://import/20_logic/40_flowchart/ope01.elmt" x="560" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-6" x="40" id="33" orientation="0"/>
+                    <terminal y="36" x="40" id="34" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Detect wheel/circle</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="5.07071" uuid="{8684d18d-499c-44c5-95b6-dd26ce1b6b78}" x="-11.6264" text_width="-1" Valignment="AlignTop" font="Sans Serif,8,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Detect wheel/circle</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{08cc0745-4f18-4678-91c7-e523574585bc}" y="50" type="embed://import/20_logic/40_flowchart/debfin01.elmt" x="100" orientation="0" z="10">
+                <terminals>
+                    <terminal y="16" x="20" id="35" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Start</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="-11.6846" uuid="{6f113871-8112-4acb-9f48-63cd041c6e27}" x="3.63799" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Start</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{071fae29-2000-4c02-97c9-3dc6a28f5bd5}" y="140" type="embed://import/20_logic/40_flowchart/souspgm01.elmt" x="80" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-6" x="40" id="36" orientation="0"/>
+                    <terminal y="36" x="40" id="37" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Connect Bluetooth</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="5.55914" uuid="{bab15901-5f3a-4c18-ae39-8ba6bcef7c17}" x="-0.874556" text_width="-1" Valignment="AlignTop" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Connect Bluetooth</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{5f1d8b32-79a4-4971-9201-d89db304ffa8}" y="80" type="embed://import/20_logic/40_flowchart/ope01.elmt" x="80" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-6" x="40" id="38" orientation="0"/>
+                    <terminal y="36" x="40" id="39" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Initialization</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="4" uuid="{12ca7e06-3fb4-4267-a369-9f21a965d8ff}" x="3.64516" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Initialization</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{516e4afa-a179-4ddf-816f-395719e3f39c}" y="610" type="embed://import/20_logic/40_flowchart/if02.elmt" x="150" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-26" x="50" id="40" orientation="0"/>
+                    <terminal y="10" x="116" id="41" orientation="1"/>
+                    <terminal y="56" x="50" id="42" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">All wheels set?</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="0" uuid="{aa0d90e7-2c40-4812-81ad-9fdfeb4d9ff9}" x="10" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>All wheels set?</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{4ad93021-788a-48f3-9439-0cc06fef2bd9}" y="450" type="embed://import/20_logic/40_flowchart/ope01.elmt" x="760" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-6" x="40" id="43" orientation="0"/>
+                    <terminal y="36" x="40" id="44" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Stop motor</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="4" uuid="{87b13836-1e5a-4ece-bac3-2ff4be97eaa7}" x="5.3955" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Stop motor</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{1a0d4fdb-9c01-4680-960e-d1ecdbf1db51}" y="70" type="embed://import/20_logic/40_flowchart/debfin02.elmt" x="770" orientation="0" z="10">
+                <terminals>
+                    <terminal y="16" x="30" id="45" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Motor drive</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="-11" uuid="{416f18b9-8e2b-47de-9587-7b1488fb38fe}" x="-3.209" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Motor drive</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{e755c106-4900-4fdb-8ace-e1af788a369a}" y="210" type="embed://import/20_logic/40_flowchart/ope02.elmt" x="760" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-6" x="40" id="46" orientation="0"/>
+                    <terminal y="46" x="40" id="47" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="7" uuid="{11290e4d-7d8e-4ecc-a8dd-a61c8e469bbe}" x="3" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{ac2f3b2f-782e-4f78-aac3-a84f9a13d0c3}" y="370" type="embed://import/20_logic/40_flowchart/if02.elmt" x="750" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-26" x="50" id="48" orientation="0"/>
+                    <terminal y="10" x="116" id="49" orientation="1"/>
+                    <terminal y="56" x="50" id="50" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Current too high?</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="-1.91364" uuid="{8a10441d-da17-4127-adea-7ffbd1cb3a02}" x="-2.29536" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Current too high?</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{2cf0c1f4-d2e8-4efc-9c69-db366e38bbe7}" y="330" type="embed://import/20_logic/40_flowchart/if02.elmt" x="550" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-26" x="50" id="51" orientation="0"/>
+                    <terminal y="10" x="116" id="52" orientation="1"/>
+                    <terminal y="56" x="50" id="53" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Position correct?</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="-1.92929" uuid="{a35ad650-3765-4fc4-b445-ede412a10aa4}" x="2.22215" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Position correct?</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{d45e651b-655a-4a85-ae98-2fdcaad21b2c}" y="410" type="embed://import/20_logic/40_flowchart/ope01.elmt" x="560" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-6" x="40" id="54" orientation="0"/>
+                    <terminal y="36" x="40" id="55" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Signal</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="4" uuid="{34e441c4-46b2-4fc7-81cf-5a86a824db68}" x="17.2829" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Signal</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{79316593-022e-47a6-9bcd-6a6bd2b4c09c}" y="70" type="embed://import/20_logic/40_flowchart/debfin02.elmt" x="570" orientation="0" z="10">
+                <terminals>
+                    <terminal y="16" x="30" id="56" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Look for wheels</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="-12.0707" uuid="{17875d2a-4e92-4cc8-8570-120de38884fe}" x="-16.9093" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Look for wheels</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{797a5231-bc14-46f7-aaa5-7aa70962ca92}" y="480" type="embed://import/20_logic/40_flowchart/debfin01.elmt" x="620" orientation="2" z="10">
+                <terminals>
+                    <terminal y="16" x="20" id="57" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Finish</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="11.485" uuid="{1248747c-5924-459f-b1b3-51f4db7353d9}" x="38.9093" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="180">
+                        <text>Finish</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{5d10cb56-0478-4077-8501-d110f6cb2188}" y="400" type="embed://import/20_logic/40_flowchart/ope01.elmt" x="910" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-6" x="40" id="58" orientation="0"/>
+                    <terminal y="36" x="40" id="59" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Stop motor</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="4" uuid="{7bd6ea01-aa83-4422-a5cc-dc83b482ee21}" x="6.48186" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Stop motor</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{5aea7bf0-ea71-43ee-8c54-590ac2a66796}" y="290" type="embed://import/20_logic/40_flowchart/ope01.elmt" x="760" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-6" x="40" id="60" orientation="0"/>
+                    <terminal y="36" x="40" id="61" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Check current</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="3.23151" uuid="{f0b4c049-3c80-4e10-8bc9-9789c97e68b8}" x="0.808456" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Check current</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{683f3f1c-5b1b-4ec6-9c99-930603dc9994}" y="240" type="embed://import/20_logic/40_flowchart/ope01.elmt" x="910" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-6" x="40" id="62" orientation="0"/>
+                    <terminal y="36" x="40" id="63" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Check current</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="2.91364" uuid="{ee0a40d2-6901-4d88-b050-f5b756568bf5}" x="1.05007" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Check current</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{8a894a7e-3321-4196-9933-6933ccd251d9}" y="320" type="embed://import/20_logic/40_flowchart/if02.elmt" x="900" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-26" x="50" id="64" orientation="0"/>
+                    <terminal y="10" x="116" id="65" orientation="1"/>
+                    <terminal y="56" x="50" id="66" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Current too high?</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="-1.91364" uuid="{8a10441d-da17-4127-adea-7ffbd1cb3a02}" x="-2.29536" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Current too high?</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{7749f8d9-7412-4daa-b2e2-89364f0118ce}" y="530" type="embed://import/20_logic/40_flowchart/debfin01.elmt" x="910" orientation="2" z="10">
+                <terminals>
+                    <terminal y="16" x="20" id="67" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Finish</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="10.7271" uuid="{e27b8b07-d17b-4d14-a65b-04416552b252}" x="39.3317" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="180">
+                        <text>Finish</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{1d6d1ede-a208-4aca-9a8a-4d9ec70b199e}" y="130" type="embed://import/20_logic/40_flowchart/if02.elmt" x="750" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-26" x="50" id="68" orientation="0"/>
+                    <terminal y="10" x="116" id="69" orientation="1"/>
+                    <terminal y="56" x="50" id="70" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">Open flag = 1?</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="-0.827285" uuid="{9bed4f18-78ea-4984-ab08-2dd490c09f5b}" x="6.3955" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text>Open flag = 1?</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" prefix="" uuid="{e57f646d-d60a-42a8-a7fd-349cc9e7fdb6}" y="160" type="embed://import/20_logic/40_flowchart/ope02.elmt" x="910" orientation="0" z="10">
+                <terminals>
+                    <terminal y="-6" x="40" id="71" orientation="0"/>
+                    <terminal y="46" x="40" id="72" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="comment"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                    <elementInformation show="1" name="location"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="true" y="7" uuid="{11290e4d-7d8e-4ecc-a8dd-a61c8e469bbe}" x="3" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+        </elements>
+        <conductors>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="36" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="10" terminal2="39" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="41" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="20" terminal2="40" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <segment length="9" orientation="horizontal"/>
+                <segment length="-50" orientation="vertical"/>
+                <segment length="-79" orientation="horizontal"/>
+                <segment length="1" orientation="vertical"/>
+                <segment length="9" orientation="vertical"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="23" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="30" terminal2="3" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="6" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="10" terminal2="10" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="24" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="20" terminal2="2" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <segment length="9" orientation="horizontal"/>
+                <segment length="1" orientation="horizontal"/>
+                <segment length="-110" orientation="vertical"/>
+                <segment length="-80" orientation="horizontal"/>
+                <segment length="1" orientation="vertical"/>
+                <segment length="9" orientation="vertical"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="17" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="20" terminal2="37" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="8" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="40" terminal2="18" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="19" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="10" terminal2="13" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="7" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="10" terminal2="17" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <segment length="9" orientation="vertical"/>
+                <segment length="1" orientation="vertical"/>
+                <segment length="-70" orientation="horizontal"/>
+                <segment length="-230" orientation="vertical"/>
+                <segment length="70" orientation="horizontal"/>
+                <segment length="1" orientation="vertical"/>
+                <segment length="9" orientation="vertical"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="14" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="20" terminal2="5" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="0" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="20" terminal2="42" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="21" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="0" terminal2="32" x="0" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="25" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="10" terminal2="4" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <segment length="9" orientation="vertical"/>
+                <segment length="1" orientation="vertical"/>
+                <segment length="-70" orientation="horizontal"/>
+                <segment length="-340" orientation="vertical"/>
+                <segment length="70" orientation="horizontal"/>
+                <segment length="1" orientation="vertical"/>
+                <segment length="9" orientation="vertical"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="26" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="10" terminal2="30" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="29" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="10" terminal2="4" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <segment length="9" orientation="horizontal"/>
+                <segment length="1" orientation="horizontal"/>
+                <segment length="-170" orientation="vertical"/>
+                <segment length="-230" orientation="horizontal"/>
+                <segment length="1" orientation="vertical"/>
+                <segment length="9" orientation="vertical"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="15" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="10" terminal2="28" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="_" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="27" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="10" terminal2="17" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <segment length="9" orientation="vertical"/>
+                <segment length="100" orientation="horizontal"/>
+                <segment length="-839" orientation="vertical"/>
+                <segment length="-330" orientation="horizontal"/>
+                <segment length="1" orientation="vertical"/>
+                <segment length="9" orientation="vertical"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="51" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="10" terminal2="22" x="0" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="9" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="10" terminal2="11" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="4" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="10" terminal2="1" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="2" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="20" terminal2="16" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="31" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="0" terminal2="34" x="0" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="54" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="0" terminal2="53" x="0" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="38" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="10" terminal2="35" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="12" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="10" terminal2="17" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <segment length="0" orientation="horizontal"/>
+                <segment length="10" orientation="horizontal"/>
+                <segment length="-260" orientation="vertical"/>
+                <segment length="-160" orientation="horizontal"/>
+                <segment length="10" orientation="vertical"/>
+                <segment length="0" orientation="horizontal"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="40" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="10" terminal2="20" x="-370" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="60" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="0" terminal2="47" x="0" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="49" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="10" terminal2="60" x="0" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <segment length="9" orientation="horizontal"/>
+                <segment length="1" orientation="horizontal"/>
+                <segment length="-110" orientation="vertical"/>
+                <segment length="-80" orientation="horizontal"/>
+                <segment length="1" orientation="vertical"/>
+                <segment length="9" orientation="vertical"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="52" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="10" terminal2="21" x="0" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <segment length="9" orientation="horizontal"/>
+                <segment length="1" orientation="horizontal"/>
+                <segment length="-120" orientation="vertical"/>
+                <segment length="-80" orientation="horizontal"/>
+                <segment length="1" orientation="vertical"/>
+                <segment length="9" orientation="vertical"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="43" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="0" terminal2="50" x="0" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="48" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="10" terminal2="61" x="0" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="64" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="10" terminal2="63" x="0" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="_" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="59" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="0" terminal2="67" x="0" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <segment length="9" orientation="vertical"/>
+                <segment length="51" orientation="vertical"/>
+                <segment length="-60" orientation="horizontal"/>
+                <segment length="1" orientation="vertical"/>
+                <segment length="9" orientation="vertical"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="56" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="0" terminal2="33" x="0" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="62" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="0" terminal2="72" x="0" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="58" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="0" terminal2="66" x="0" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="68" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="0" terminal2="45" x="-20" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="69" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="0" terminal2="71" x="0" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="44" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="0" terminal2="67" x="0" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <segment length="9" orientation="vertical"/>
+                <segment length="1" orientation="vertical"/>
+                <segment length="90" orientation="horizontal"/>
+                <segment length="1" orientation="vertical"/>
+                <segment length="9" orientation="vertical"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="57" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="0" terminal2="55" x="0" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="46" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="0" terminal2="70" x="0" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" horizrotatetext="0" vertirotatetext="270" terminal1="65" bus="" vertical-alignment="AlignRight" displaytext="1" freezeLabel="false" conductor_section="" cable="" bicolor="false" y="10" terminal2="62" x="0" conductor_color="" text_color="#000000" formula="" color2="#000000" dash-size="1" type="multi" condsize="1" numsize="7" onetextperfolio="0" horizontal-alignment="AlignBottom" num="" function="">
+                <segment length="9" orientation="horizontal"/>
+                <segment length="1" orientation="horizontal"/>
+                <segment length="-110" orientation="vertical"/>
+                <segment length="-80" orientation="horizontal"/>
+                <segment length="1" orientation="vertical"/>
+                <segment length="9" orientation="vertical"/>
+                <sequentialNumbers/>
+            </conductor>
+        </conductors>
+        <inputs>
+            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Pisition to&lt;br />middle line&lt;/p>&lt;/body>&lt;/html>" y="243.272" x="566.364" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0"/>
+            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Turn motor to&lt;br />negative direction&lt;/p>&lt;/body>&lt;/html>" y="160" x="900" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0"/>
+            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Turn motor to&lt;br />positive direction&lt;/p>&lt;/body>&lt;/html>" y="210" x="750" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" rotation="0"/>
+        </inputs>
+    </diagram>
+    <collection>
+        <category name="import">
+            <names>
+                <name lang="pl">Elementy importowane</name>
+                <name lang="ru">Импортированные элементы</name>
+                <name lang="es">Elementos importados</name>
+                <name lang="hr">Uvezeni elementi</name>
+                <name lang="ro">Elemente importate</name>
+                <name lang="it">Elementi importati</name>
+                <name lang="tr">İthal öğeler</name>
+                <name lang="cs">Zavedené prvky</name>
+                <name lang="el">Εισηγμένα στοιχεία</name>
+                <name lang="de">Importierte elemente</name>
+                <name lang="nl">Elementen geïmporteerd</name>
+                <name lang="fr">Éléments importés</name>
+                <name lang="ca">Elements importats</name>
+                <name lang="en">Imported elements</name>
+                <name lang="sl">Uvoženi elementi</name>
+                <name lang="da">Importerede elementer</name>
+                <name lang="ja">インバートされた要素</name>
+                <name lang="pt">elementos importados</name>
+                <name lang="uk">Імпортовані елементи</name>
+            </names>
+            <category name="20_logic">
+                <names>
+                    <name lang="es">Lógica</name>
+                    <name lang="da">Logik</name>
+                    <name lang="nl">Logica</name>
+                    <name lang="fr">Logique</name>
+                    <name lang="de">Logik</name>
+                    <name lang="it">Logica</name>
+                    <name lang="ja">論理</name>
+                    <name lang="pl">Programowanie</name>
+                    <name lang="cs">Logika</name>
+                    <name lang="en">Logic</name>
+                    <name lang="ru">Логика</name>
+                    <name lang="el">Λογικά κυκλώματα</name>
+                </names>
+                <category name="40_flowchart">
+                    <names>
+                        <name lang="es">Organigrama</name>
+                        <name lang="da">Rutediagram</name>
+                        <name lang="nl">Stroomschema</name>
+                        <name lang="de">Ablaufdiagramm</name>
+                        <name lang="fr">Organigramme</name>
+                        <name lang="it">Diagramma di flusso</name>
+                        <name lang="ja">フローチャート</name>
+                        <name lang="pl">Schemat blokowy</name>
+                        <name lang="en">Flow chart</name>
+                        <name lang="cs">Funkční schéma</name>
+                        <name lang="el">Οργανόγραμμα</name>
+                        <name lang="be">Organisatieschema</name>
+                    </names>
+                    <element name="debfin01.elmt">
+                        <definition hotspot_x="15" link_type="simple" width="70" version="0.5" type="element" height="40" hotspot_y="14">
+                            <uuid uuid="{2234ace5-e9bf-4a8b-8d73-ea3767237285}"/>
+                            <names>
+                                <name lang="el">Αρχή-τέλος προγράμματος</name>
+                                <name lang="fr">Début-Fin programme</name>
+                                <name lang="cs">Začátek-Konec program</name>
+                                <name lang="es">Inicio-Fin de programa 1</name>
+                                <name lang="it">Inizio-Fine</name>
+                                <name lang="pl">Blok graniczny (początek / koniec programu)</name>
+                                <name lang="en">Start-End program</name>
+                                <name lang="nl">Start/Stop programma</name>
+                            </names>
+                            <informations>ezza</informations>
+                            <description>
+                                <arc angle="-180" antialias="true" start="-90" width="20" y="-10" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20"/>
+                                <input size="9" tagg="label" text="..." y="0.5" x="10"/>
+                                <arc angle="-180" antialias="true" start="90" width="20" y="-10" x="30" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20"/>
+                                <line length1="1.5" antialias="false" end2="none" y1="10" x1="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" x2="20" length2="1.5" end1="none"/>
+                                <line length1="1.5" antialias="false" end2="none" y1="-10" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" x2="40" length2="1.5" end1="none"/>
+                                <line length1="1.5" antialias="false" end2="none" y1="10" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" x2="39" length2="1.5" end1="none"/>
+                                <terminal y="20" x="20" orientation="s"/>
+                            </description>
+                        </definition>
+                    </element>
+                    <element name="ope01.elmt">
+                        <definition hotspot_x="15" link_type="simple" width="110" version="0.5" type="element" height="60" hotspot_y="14">
+                            <uuid uuid="{376fc4a7-f2d8-4018-81b8-a2bc264c4b30}"/>
+                            <names>
+                                <name lang="el">Επεξεργασία / Λειτουργίες</name>
+                                <name lang="fr">Traitement / opérations </name>
+                                <name lang="cs">Zacházení/Operace</name>
+                                <name lang="es">Tratamiento / Operaciones</name>
+                                <name lang="it">Elaborazione</name>
+                                <name lang="pl">Blok obliczeniowy</name>
+                                <name lang="en">Treatment / Operations</name>
+                                <name lang="nl">Behandeling / Gebeurtenis</name>
+                            </names>
+                            <informations>ezza</informations>
+                            <description>
+                                <rect antialias="false" width="100" y="0" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" height="30"/>
+                                <input size="9" rotate="true" tagg="label" text="Traitement" y="15.5" x="13"/>
+                                <line length1="1.5" antialias="false" end2="none" y1="40" x1="40" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="31" x2="40" length2="1.5" end1="triangle"/>
+                                <line length1="1.5" antialias="false" end2="none" y1="-0.792" x1="40" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-9.192" x2="40" length2="1.5" end1="none"/>
+                                <terminal y="-10" x="40" orientation="n"/>
+                                <terminal y="40" x="40" orientation="s"/>
+                            </description>
+                        </definition>
+                    </element>
+                    <element name="souspgm01.elmt">
+                        <definition hotspot_x="15" link_type="simple" width="110" version="0.5" type="element" height="60" hotspot_y="14">
+                            <uuid uuid="{0c526714-b1ee-41ed-9742-3fcca0a7fa62}"/>
+                            <names>
+                                <name lang="el">Υποπρόγραμμα</name>
+                                <name lang="fr">sous prgramme</name>
+                                <name lang="cs">Pod program</name>
+                                <name lang="es">Subprograma 01</name>
+                                <name lang="it">Processo predefinito</name>
+                                <name lang="pl">Blok fragmentu</name>
+                                <name lang="en">subprogram</name>
+                                <name lang="nl">Subprogramma</name>
+                            </names>
+                            <informations>ezza</informations>
+                            <description>
+                                <rect antialias="false" width="100" y="0" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" height="30"/>
+                                <input size="9" rotate="true" tagg="label" text="sous pgm" y="15.5" x="9"/>
+                                <line length1="1.5" antialias="false" end2="none" y1="40" x1="40" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="31" x2="40" length2="1.5" end1="triangle"/>
+                                <line length1="1.5" antialias="false" end2="none" y1="-0.792" x1="40" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-9.192" x2="40" length2="1.5" end1="none"/>
+                                <line length1="1.5" antialias="false" end2="none" y1="1" x1="-4" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="30" x2="-4" length2="1.5" end1="none"/>
+                                <line length1="1.5" antialias="false" end2="none" y1="1" x1="84" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="30" x2="84" length2="1.5" end1="none"/>
+                                <terminal y="40" x="40" orientation="s"/>
+                                <terminal y="-10" x="40" orientation="n"/>
+                            </description>
+                        </definition>
+                    </element>
+                    <element name="if02.elmt">
+                        <definition hotspot_x="14" link_type="simple" width="140" version="0.5" type="element" height="100" hotspot_y="34">
+                            <uuid uuid="{b4e271b2-4ddc-441d-9de6-fc9d30f5a7b3}"/>
+                            <names>
+                                <name lang="el">ΑΝ 02</name>
+                                <name lang="fr">IF 02</name>
+                                <name lang="cs">IF 02</name>
+                                <name lang="es">Bloque de decisión condicional 02</name>
+                                <name lang="it">Decisione (IF)</name>
+                                <name lang="pl">Blok decyzyjny, warunkowy</name>
+                                <name lang="en">IF 02</name>
+                                <name lang="nl">IF 02 Beslissing</name>
+                            </names>
+                            <informations>ezza</informations>
+                            <description>
+                                <polygon antialias="true" x5="-10" y1="10" y5="10" y3="10" x1="-10" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-30" x4="50" x2="50" y4="50" x3="110"/>
+                                <text size="5" text="N" y="8" x="109"/>
+                                <input size="9" rotate="true" tagg="label" text="IF..............." y="8.5" x="14"/>
+                                <text size="5" text="O" y="53" x="54"/>
+                                <line length1="1.5" antialias="false" end2="none" y1="59" x1="50" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="50" x2="50" length2="1.5" end1="triangle"/>
+                                <line length1="1.5" antialias="false" end2="none" y1="10" x1="120" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" x2="110" length2="1.5" end1="triangle"/>
+                                <terminal y="-30" x="50" orientation="n"/>
+                                <terminal y="60" x="50" orientation="s"/>
+                                <terminal y="10" x="120" orientation="e"/>
+                            </description>
+                        </definition>
+                    </element>
+                    <element name="ope02.elmt">
+                        <definition hotspot_x="15" link_type="simple" width="110" version="0.5" type="element" height="70" hotspot_y="14">
+                            <uuid uuid="{dc4923bf-8e2f-4b27-9a74-d20e7ed33320}"/>
+                            <names>
+                                <name lang="el">Επεξεργασία / Λειτουργίες "2 γραμμές"</name>
+                                <name lang="fr">Traitement / opérations "2lignes"</name>
+                                <name lang="cs">Zacházení/Operace 2 řádky</name>
+                                <name lang="es">Tratamiento / Operaciones 2 lineas</name>
+                                <name lang="it">Elaborazione "2 righe"</name>
+                                <name lang="pl">Blok obliczeniowy</name>
+                                <name lang="en">Treatment / operations "2 lines"</name>
+                                <name lang="nl">Behandeling / Gebeurtenis 2 lijnen</name>
+                            </names>
+                            <informations>ezza</informations>
+                            <description>
+                                <rect antialias="false" width="100" y="0.15447" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" height="40"/>
+                                <input size="9" rotate="true" tagg="label" text="Traitement" y="18.5" x="3"/>
+                                <line length1="1.5" antialias="false" end2="none" y1="50" x1="40" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="41" x2="40" length2="1.5" end1="triangle"/>
+                                <line length1="1.5" antialias="false" end2="none" y1="-9.89565" x1="40" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-0.113043" x2="40" length2="1.5" end1="none"/>
+                                <terminal y="50" x="40" orientation="s"/>
+                                <terminal y="-10" x="40" orientation="n"/>
+                            </description>
+                        </definition>
+                    </element>
+                    <element name="debfin02.elmt">
+                        <definition hotspot_x="25" link_type="simple" width="110" version="0.5" type="element" height="50" hotspot_y="21">
+                            <uuid uuid="{1994de37-9480-4f2b-932f-16f8d407c348}"/>
+                            <names>
+                                <name lang="el">Αρχή-τέλος προγράμματος</name>
+                                <name lang="fr">Début-Fin programme</name>
+                                <name lang="cs">Začátek-Konec program</name>
+                                <name lang="es">Inicio-fin de programa 2</name>
+                                <name lang="it">Inizio-Fine</name>
+                                <name lang="pl">Blok graniczny (początek / koniec programu)</name>
+                                <name lang="en">Start-End program</name>
+                                <name lang="nl">Start Einde programma</name>
+                            </names>
+                            <informations>ezza</informations>
+                            <description>
+                                <arc angle="-180" antialias="true" start="-90" width="30" y="-15" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" height="30"/>
+                                <input size="9" tagg="label" text="........" y="0.5" x="12"/>
+                                <arc angle="-180" antialias="true" start="90" width="30" y="-15" x="50" style="line-style:normal;line-weight:normal;filling:none;color:black" height="30"/>
+                                <line length1="1.5" antialias="false" end2="none" y1="-15" x1="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-15" x2="65" length2="1.5" end1="none"/>
+                                <line length1="1.5" antialias="false" end2="none" y1="15" x1="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="15" x2="65" length2="1.5" end1="none"/>
+                                <line length1="1.5" antialias="false" end2="none" y1="20" x1="30" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="16" x2="30" length2="1.5" end1="none"/>
+                                <terminal y="20" x="30" orientation="s"/>
+                            </description>
+                        </definition>
+                    </element>
+                </category>
+            </category>
+        </category>
+    </collection>
+</project>

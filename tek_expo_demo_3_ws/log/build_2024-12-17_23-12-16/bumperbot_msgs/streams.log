@@ -1,0 +1,31 @@
+[0.036s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papalist/tek_expo_demo_3_ws/src/bumperbot_msgs -DCMAKE_INSTALL_PREFIX=/home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs
+[0.200s] -- The C compiler identification is GNU 13.3.0
+[0.372s] -- The CXX compiler identification is GNU 13.3.0
+[0.437s] -- Detecting C compiler ABI info
+[0.647s] -- Detecting C compiler ABI info - done
+[0.682s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.683s] -- Detecting C compile features
+[0.683s] -- Detecting C compile features - done
+[0.702s] -- Detecting CXX compiler ABI info
+[0.937s] -- Detecting CXX compiler ABI info - done
+[0.981s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.982s] -- Detecting CXX compile features
+[0.983s] -- Detecting CXX compile features - done
+[0.995s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.339s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.627s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.758s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.804s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.854s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.908s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.038s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.090s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.431s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[6.556s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.112s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.134s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[8.522s] -- Found PythonExtra: /usr/bin/python3  
+[9.600s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[9.836s] -- Configuring done (9.8s)
+[9.975s] -- Generating done (0.1s)
+[10.006s] -- Build files have been written to: /home/papalist/tek_expo_demo_3_ws/build/bumperbot_msgs

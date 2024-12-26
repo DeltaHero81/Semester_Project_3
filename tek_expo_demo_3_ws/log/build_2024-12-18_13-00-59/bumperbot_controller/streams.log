@@ -1,0 +1,50 @@
+[0.064s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller -- -j8 -l8
+[0.269s] Built target ament_cmake_python_copy_bumperbot_controller
+[0.787s] running egg_info
+[0.835s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.836s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.836s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.979s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.979s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.038s] Built target ament_cmake_python_build_bumperbot_controller_egg
+[1.062s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller -- -j8 -l8
+[1.063s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller
+[1.079s] -- Install configuration: ""
+[1.079s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[1.079s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[1.080s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info
+[1.080s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.080s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/top_level.txt
+[1.080s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.081s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/PKG-INFO
+[1.081s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller
+[1.081s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/__init__.py
+[1.082s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/twist_relay.py
+[1.168s] Listing '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller'...
+[1.175s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[1.176s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[1.178s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[1.178s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[1.180s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_joy.yaml
+[1.180s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_locks.yaml
+[1.181s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[1.181s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_topics.yaml
+[1.181s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[1.182s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[1.182s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay.py
+[1.182s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[1.182s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[1.182s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[1.182s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[1.183s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[1.183s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[1.183s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[1.183s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[1.183s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[1.183s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[1.183s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[1.184s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[1.184s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[1.184s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[1.184s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[1.217s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller

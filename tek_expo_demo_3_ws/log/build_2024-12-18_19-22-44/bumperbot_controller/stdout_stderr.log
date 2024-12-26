@@ -1,0 +1,23 @@
+[  6%] Built target mecanum_drive_controller_parameters
+[ 26%] Built target gmock
+[ 26%] Built target ament_cmake_python_copy_bumperbot_controller
+[ 40%] Built target gmock_main
+[ 46%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o[0m
+[ 66%] Built target test_load_mecanum_drive_controller
+running egg_info
+writing bumperbot_controller.egg-info/PKG-INFO
+writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+writing top-level names to bumperbot_controller.egg-info/top_level.txt
+reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[ 66%] Built target ament_cmake_python_build_bumperbot_controller_egg
+In file included from [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/src/mecanum_drive_controller.cpp:15[m[K:
+[01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:32:10:[m[K [01;31m[Kfatal error: [m[Krealtime_tools/realtime_buffer.hpp: No such file or directory
+   32 | #include [01;31m[K"realtime_tools/realtime_buffer.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mecanum_drive_controller.dir/build.make:76: CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:263: CMakeFiles/mecanum_drive_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

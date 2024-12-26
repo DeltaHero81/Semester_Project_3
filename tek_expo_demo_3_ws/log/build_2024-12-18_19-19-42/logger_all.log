@@ -1,0 +1,704 @@
+[0.158s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.158s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f30fc66fe60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f30fc66fb60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f30fc66fb60>>, mixin_verb=('build',))
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.212s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/papalist/tek_expo_demo_3_ws'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_bringup) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_bringup) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_bringup) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_bringup) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_bringup) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_bringup) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_bringup) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_bringup) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_bringup' with type 'ros.ament_cmake' and name 'bumperbot_bringup'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_controller' with type 'ros.ament_cmake' and name 'bumperbot_controller'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'ros'
+[0.264s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_description' with type 'ros.ament_cmake' and name 'bumperbot_description'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extension 'ros'
+[0.266s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_firmware' with type 'ros.ament_cmake' and name 'bumperbot_firmware'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_localization' with type 'ros.ament_cmake' and name 'bumperbot_localization'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_mapping) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_mapping) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_mapping) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_mapping) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_mapping) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_mapping) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_mapping) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_mapping) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_mapping' with type 'ros.ament_cmake' and name 'bumperbot_mapping'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_utils) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_utils) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_utils) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_utils) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_utils) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_utils) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_utils) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_utils) by extension 'ros'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_utils' with type 'ros.ament_cmake' and name 'bumperbot_utils'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ros'
+[0.274s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rf2o_laser_odometry' with type 'ros.ament_cmake' and name 'rf2o_laser_odometry'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.305s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 414 installed packages in /opt/ros/jazzy
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_target' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.384s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller', 'merge_install': False, 'path': '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_target' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.385s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description', 'merge_install': False, 'path': '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_description', 'symlink_install': False, 'test_result_base': None}
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_target' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_clean_first' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_force_configure' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'ament_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.386s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_firmware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware', 'merge_install': False, 'path': '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_firmware', 'symlink_install': False, 'test_result_base': None}
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'cmake_target' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.387s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization', 'merge_install': False, 'path': '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_localization', 'symlink_install': False, 'test_result_base': None}
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_mapping' build argument 'cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_mapping' build argument 'cmake_target' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_mapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_mapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_mapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.388s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping', 'merge_install': False, 'path': '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_mapping', 'symlink_install': False, 'test_result_base': None}
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_utils' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_utils' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.389s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils', 'merge_install': False, 'path': '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_utils', 'symlink_install': False, 'test_result_base': None}
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.390s] DEBUG:colcon.colcon_core.verb:Building package 'rf2o_laser_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/papalist/tek_expo_demo_3_ws/build/rf2o_laser_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry', 'merge_install': False, 'path': '/home/papalist/tek_expo_demo_3_ws/src/rf2o_laser_odometry', 'symlink_install': False, 'test_result_base': None}
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.391s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/papalist/tek_expo_demo_3_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/papalist/tek_expo_demo_3_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.392s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup', 'merge_install': False, 'path': '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.392s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.394s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.394s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller' with build type 'ament_cmake'
+[0.395s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller'
+[0.398s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.398s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.398s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.403s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_description' with build type 'ament_cmake'
+[0.404s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_description'
+[0.404s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.404s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.411s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_firmware' with build type 'ament_cmake'
+[0.411s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_firmware'
+[0.412s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.412s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.418s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_localization' with build type 'ament_cmake'
+[0.418s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_localization'
+[0.418s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.423s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_mapping' with build type 'ament_cmake'
+[0.423s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_mapping'
+[0.423s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.423s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.428s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_utils' with build type 'ament_cmake'
+[0.428s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_utils'
+[0.428s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.428s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.434s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/papalist/tek_expo_demo_3_ws/src/rf2o_laser_odometry' with build type 'ament_cmake'
+[0.434s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/papalist/tek_expo_demo_3_ws/src/rf2o_laser_odometry'
+[0.435s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.435s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.439s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/papalist/tek_expo_demo_3_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[0.439s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/papalist/tek_expo_demo_3_ws/src/sllidar_ros2'
+[0.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller -- -j8 -l8
+[0.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_description -- -j8 -l8
+[0.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware -- -j8 -l8
+[0.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_localization -- -j8 -l8
+[0.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_mapping -- -j8 -l8
+[0.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_utils -- -j8 -l8
+[0.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/rf2o_laser_odometry -- -j8 -l8
+[0.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/sllidar_ros2 -- -j8 -l8
+[0.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_description -- -j8 -l8
+[0.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_description
+[0.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/rf2o_laser_odometry -- -j8 -l8
+[0.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/rf2o_laser_odometry
+[0.817s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_description)
+[0.826s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description' for CMake module files
+[0.827s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description' for CMake config files
+[0.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_description', 'cmake_prefix_path')
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.ps1'
+[0.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.dsv'
+[0.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.sh'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/bin'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/lib/pkgconfig/bumperbot_description.pc'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/lib/python3.12/site-packages'
+[0.849s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/bin'
+[0.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/share/bumperbot_description/package.ps1'
+[0.850s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/share/bumperbot_description/package.dsv'
+[0.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/share/bumperbot_description/package.sh'
+[0.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/share/bumperbot_description/package.bash'
+[0.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/share/bumperbot_description/package.zsh'
+[0.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/sllidar_ros2 -- -j8 -l8
+[0.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/sllidar_ros2
+[0.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_description
+[0.862s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/share/colcon-core/packages/bumperbot_description)
+[0.868s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_description)
+[0.869s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description' for CMake module files
+[0.870s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description' for CMake config files
+[0.870s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_description', 'cmake_prefix_path')
+[0.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.ps1'
+[0.871s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.dsv'
+[0.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.sh'
+[0.873s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/bin'
+[0.873s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/lib/pkgconfig/bumperbot_description.pc'
+[0.874s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/lib/python3.12/site-packages'
+[0.874s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/bin'
+[0.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/share/bumperbot_description/package.ps1'
+[0.875s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/share/bumperbot_description/package.dsv'
+[0.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/share/bumperbot_description/package.sh'
+[0.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/share/bumperbot_description/package.bash'
+[0.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/share/bumperbot_description/package.zsh'
+[0.879s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description/share/colcon-core/packages/bumperbot_description)
+[0.886s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry' for CMake module files
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry' for CMake config files
+[0.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/lib'
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/bin'
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/lib/python3.12/site-packages'
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/bin'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[0.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/rf2o_laser_odometry
+[0.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[0.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[0.900s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[0.900s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[0.901s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry' for CMake module files
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry' for CMake config files
+[0.902s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[0.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[0.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[0.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[0.905s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/lib'
+[0.905s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/bin'
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/lib/python3.12/site-packages'
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/bin'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[0.908s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[0.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[0.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[0.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[0.911s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papalist/tek_expo_demo_3_ws/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[0.912s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[0.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/sllidar_ros2
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2' for CMake module files
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2' for CMake config files
+[0.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[0.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/lib'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/bin'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/lib/python3.12/site-packages'
+[0.919s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/bin'
+[0.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[0.920s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[0.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[0.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[0.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[0.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[0.924s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[0.924s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2' for CMake module files
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2' for CMake config files
+[0.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/lib'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/bin'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/lib/python3.12/site-packages'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/bin'
+[0.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[0.934s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[1.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_localization -- -j8 -l8
+[1.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_localization
+[1.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware -- -j8 -l8
+[1.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware
+[1.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_utils -- -j8 -l8
+[1.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_utils
+[1.489s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_localization)
+[1.489s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization' for CMake module files
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization' for CMake config files
+[1.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_localization', 'cmake_prefix_path')
+[1.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/hook/cmake_prefix_path.ps1'
+[1.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/hook/cmake_prefix_path.dsv'
+[1.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_localization
+[1.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/hook/cmake_prefix_path.sh'
+[1.496s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/bin'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/pkgconfig/bumperbot_localization.pc'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/python3.12/site-packages'
+[1.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_localization', 'pythonpath')
+[1.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/hook/pythonpath.ps1'
+[1.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/hook/pythonpath.dsv'
+[1.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/hook/pythonpath.sh'
+[1.500s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/bin'
+[1.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/package.ps1'
+[1.501s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv'
+[1.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/package.sh'
+[1.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/package.bash'
+[1.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/package.zsh'
+[1.504s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/colcon-core/packages/bumperbot_localization)
+[1.505s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_localization)
+[1.505s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization' for CMake module files
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization' for CMake config files
+[1.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_localization', 'cmake_prefix_path')
+[1.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/hook/cmake_prefix_path.ps1'
+[1.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/hook/cmake_prefix_path.dsv'
+[1.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/hook/cmake_prefix_path.sh'
+[1.509s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib'
+[1.509s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/bin'
+[1.509s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/pkgconfig/bumperbot_localization.pc'
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/python3.12/site-packages'
+[1.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_localization', 'pythonpath')
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/hook/pythonpath.ps1'
+[1.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/hook/pythonpath.dsv'
+[1.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/hook/pythonpath.sh'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/bin'
+[1.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/package.ps1'
+[1.514s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv'
+[1.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/package.sh'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/package.bash'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/package.zsh'
+[1.518s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/colcon-core/packages/bumperbot_localization)
+[1.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_firmware)
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware' for CMake module files
+[1.553s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware' for CMake config files
+[1.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_firmware', 'cmake_prefix_path')
+[1.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.ps1'
+[1.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.dsv'
+[1.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.sh'
+[1.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware
+[1.559s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib'
+[1.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_firmware', 'ld_library_path_lib')
+[1.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.ps1'
+[1.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.dsv'
+[1.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.sh'
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/bin'
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/pkgconfig/bumperbot_firmware.pc'
+[1.563s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages'
+[1.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_firmware', 'pythonpath')
+[1.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/pythonpath.ps1'
+[1.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/pythonpath.dsv'
+[1.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/pythonpath.sh'
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/bin'
+[1.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.ps1'
+[1.568s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv'
+[1.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.sh'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.bash'
+[1.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.zsh'
+[1.575s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/colcon-core/packages/bumperbot_firmware)
+[1.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_firmware)
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware' for CMake module files
+[1.578s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware' for CMake config files
+[1.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_firmware', 'cmake_prefix_path')
+[1.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.ps1'
+[1.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.dsv'
+[1.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.sh'
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib'
+[1.586s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_firmware', 'ld_library_path_lib')
+[1.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.ps1'
+[1.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.dsv'
+[1.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.sh'
+[1.588s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/bin'
+[1.588s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/pkgconfig/bumperbot_firmware.pc'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages'
+[1.589s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_firmware', 'pythonpath')
+[1.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/pythonpath.ps1'
+[1.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/pythonpath.dsv'
+[1.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/pythonpath.sh'
+[1.593s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/bin'
+[1.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.ps1'
+[1.595s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv'
+[1.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.sh'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.bash'
+[1.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.zsh'
+[1.598s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/colcon-core/packages/bumperbot_firmware)
+[1.600s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_utils)
+[1.601s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils' for CMake module files
+[1.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_utils
+[1.602s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils' for CMake config files
+[1.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_utils', 'cmake_prefix_path')
+[1.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/hook/cmake_prefix_path.ps1'
+[1.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/hook/cmake_prefix_path.dsv'
+[1.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/hook/cmake_prefix_path.sh'
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/lib'
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/bin'
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/lib/pkgconfig/bumperbot_utils.pc'
+[1.606s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/lib/python3.12/site-packages'
+[1.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_utils', 'pythonpath')
+[1.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/hook/pythonpath.ps1'
+[1.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/hook/pythonpath.dsv'
+[1.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/hook/pythonpath.sh'
+[1.609s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/bin'
+[1.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/package.ps1'
+[1.610s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/package.dsv'
+[1.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/package.sh'
+[1.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/package.bash'
+[1.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/package.zsh'
+[1.612s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/colcon-core/packages/bumperbot_utils)
+[1.613s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_utils)
+[1.613s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils' for CMake module files
+[1.614s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils' for CMake config files
+[1.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_utils', 'cmake_prefix_path')
+[1.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/hook/cmake_prefix_path.ps1'
+[1.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/hook/cmake_prefix_path.dsv'
+[1.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/hook/cmake_prefix_path.sh'
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/lib'
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/bin'
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/lib/pkgconfig/bumperbot_utils.pc'
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/lib/python3.12/site-packages'
+[1.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_utils', 'pythonpath')
+[1.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/hook/pythonpath.ps1'
+[1.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/hook/pythonpath.dsv'
+[1.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/hook/pythonpath.sh'
+[1.620s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/bin'
+[1.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/package.ps1'
+[1.621s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/package.dsv'
+[1.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/package.sh'
+[1.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/package.bash'
+[1.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/package.zsh'
+[1.623s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/colcon-core/packages/bumperbot_utils)
+[1.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_mapping -- -j8 -l8
+[1.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_mapping
+[1.704s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_mapping)
+[1.704s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping' for CMake module files
+[1.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_mapping
+[1.705s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping' for CMake config files
+[1.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_mapping', 'cmake_prefix_path')
+[1.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/hook/cmake_prefix_path.ps1'
+[1.707s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/hook/cmake_prefix_path.dsv'
+[1.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/hook/cmake_prefix_path.sh'
+[1.708s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib'
+[1.708s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/bin'
+[1.708s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib/pkgconfig/bumperbot_mapping.pc'
+[1.708s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib/python3.12/site-packages'
+[1.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_mapping', 'pythonpath')
+[1.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/hook/pythonpath.ps1'
+[1.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/hook/pythonpath.dsv'
+[1.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/hook/pythonpath.sh'
+[1.711s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/bin'
+[1.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.ps1'
+[1.712s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv'
+[1.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.sh'
+[1.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.bash'
+[1.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.zsh'
+[1.714s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/colcon-core/packages/bumperbot_mapping)
+[1.714s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_mapping)
+[1.715s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping' for CMake module files
+[1.716s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping' for CMake config files
+[1.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_mapping', 'cmake_prefix_path')
+[1.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/hook/cmake_prefix_path.ps1'
+[1.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/hook/cmake_prefix_path.dsv'
+[1.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/hook/cmake_prefix_path.sh'
+[1.719s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib'
+[1.719s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/bin'
+[1.719s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib/pkgconfig/bumperbot_mapping.pc'
+[1.719s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib/python3.12/site-packages'
+[1.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_mapping', 'pythonpath')
+[1.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/hook/pythonpath.ps1'
+[1.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/hook/pythonpath.dsv'
+[1.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/hook/pythonpath.sh'
+[1.721s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/bin'
+[1.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.ps1'
+[1.722s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv'
+[1.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.sh'
+[1.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.bash'
+[1.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.zsh'
+[1.724s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/share/colcon-core/packages/bumperbot_mapping)
+[30.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller -- -j8 -l8
+[30.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller
+[30.834s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_controller)
+[30.834s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller' for CMake module files
+[30.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller
+[30.836s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller' for CMake config files
+[30.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_controller', 'cmake_prefix_path')
+[30.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.ps1'
+[30.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.dsv'
+[30.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.sh'
+[30.838s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib'
+[30.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_controller', 'ld_library_path_lib')
+[30.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/hook/ld_library_path_lib.ps1'
+[30.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/hook/ld_library_path_lib.dsv'
+[30.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/hook/ld_library_path_lib.sh'
+[30.840s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/bin'
+[30.840s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/pkgconfig/bumperbot_controller.pc'
+[30.840s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages'
+[30.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_controller', 'pythonpath')
+[30.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/hook/pythonpath.ps1'
+[30.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/hook/pythonpath.dsv'
+[30.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/hook/pythonpath.sh'
+[30.843s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/bin'
+[30.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/package.ps1'
+[30.845s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv'
+[30.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/package.sh'
+[30.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/package.bash'
+[30.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/package.zsh'
+[30.847s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/colcon-core/packages/bumperbot_controller)
+[30.848s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_controller)
+[30.848s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller' for CMake module files
+[30.849s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller' for CMake config files
+[30.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_controller', 'cmake_prefix_path')
+[30.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.ps1'
+[30.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.dsv'
+[30.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.sh'
+[30.851s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib'
+[30.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_controller', 'ld_library_path_lib')
+[30.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/hook/ld_library_path_lib.ps1'
+[30.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/hook/ld_library_path_lib.dsv'
+[30.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/hook/ld_library_path_lib.sh'
+[30.853s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/bin'
+[30.853s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/pkgconfig/bumperbot_controller.pc'
+[30.853s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages'
+[30.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_controller', 'pythonpath')
+[30.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/hook/pythonpath.ps1'
+[30.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/hook/pythonpath.dsv'
+[30.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/hook/pythonpath.sh'
+[30.856s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/bin'
+[30.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/package.ps1'
+[30.857s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv'
+[30.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/package.sh'
+[30.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/package.bash'
+[30.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/bumperbot_controller/package.zsh'
+[30.860s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/share/colcon-core/packages/bumperbot_controller)
+[30.860s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_bringup' with build type 'ament_cmake'
+[30.860s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_bringup'
+[30.860s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[30.860s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[30.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_bringup': AMENT_PREFIX_PATH=/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib/python3.12/site-packages:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/python3.12/site-packages:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_bringup -- -j8 -l8
+[30.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_bringup' returned '0': AMENT_PREFIX_PATH=/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib/python3.12/site-packages:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/python3.12/site-packages:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_bringup -- -j8 -l8
+[30.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_bringup': AMENT_PREFIX_PATH=/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib/python3.12/site-packages:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/python3.12/site-packages:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_bringup
+[30.968s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_bringup)
+[30.968s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup' for CMake module files
+[30.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_bringup' returned '0': AMENT_PREFIX_PATH=/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_description:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/papalist/tek_expo_demo_3_ws/install/bumperbot_mapping/lib/python3.12/site-packages:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/python3.12/site-packages:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages:/home/papalist/tek_expo_demo_3_ws/install/bumperbot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_bringup
+[30.969s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup' for CMake config files
+[30.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_bringup', 'cmake_prefix_path')
+[30.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/share/bumperbot_bringup/hook/cmake_prefix_path.ps1'
+[30.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/share/bumperbot_bringup/hook/cmake_prefix_path.dsv'
+[30.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/share/bumperbot_bringup/hook/cmake_prefix_path.sh'
+[30.971s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/bin'
+[30.971s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/lib/pkgconfig/bumperbot_bringup.pc'
+[30.971s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/lib/python3.12/site-packages'
+[30.972s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/bin'
+[30.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.ps1'
+[30.973s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.dsv'
+[30.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.sh'
+[30.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.bash'
+[30.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.zsh'
+[30.976s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/share/colcon-core/packages/bumperbot_bringup)
+[30.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_bringup)
+[30.977s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup' for CMake module files
+[30.977s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup' for CMake config files
+[30.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_bringup', 'cmake_prefix_path')
+[30.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/share/bumperbot_bringup/hook/cmake_prefix_path.ps1'
+[30.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/share/bumperbot_bringup/hook/cmake_prefix_path.dsv'
+[30.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/share/bumperbot_bringup/hook/cmake_prefix_path.sh'
+[30.980s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/bin'
+[30.980s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/lib/pkgconfig/bumperbot_bringup.pc'
+[30.980s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/lib/python3.12/site-packages'
+[30.981s] Level 1:colcon.colcon_core.environment:checking '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/bin'
+[30.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.ps1'
+[30.982s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.dsv'
+[30.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.sh'
+[30.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.bash'
+[30.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.zsh'
+[30.984s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papalist/tek_expo_demo_3_ws/install/bumperbot_bringup/share/colcon-core/packages/bumperbot_bringup)
+[30.984s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[30.985s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[30.985s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[30.985s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[30.993s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[30.993s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[30.993s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[31.022s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[31.023s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/papalist/tek_expo_demo_3_ws/install/local_setup.ps1'
+[31.025s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/papalist/tek_expo_demo_3_ws/install/_local_setup_util_ps1.py'
+[31.027s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/papalist/tek_expo_demo_3_ws/install/setup.ps1'
+[31.029s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/papalist/tek_expo_demo_3_ws/install/local_setup.sh'
+[31.030s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/papalist/tek_expo_demo_3_ws/install/_local_setup_util_sh.py'
+[31.031s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/papalist/tek_expo_demo_3_ws/install/setup.sh'
+[31.033s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/papalist/tek_expo_demo_3_ws/install/local_setup.bash'
+[31.033s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/papalist/tek_expo_demo_3_ws/install/setup.bash'
+[31.034s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/papalist/tek_expo_demo_3_ws/install/local_setup.zsh'
+[31.035s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/papalist/tek_expo_demo_3_ws/install/setup.zsh'

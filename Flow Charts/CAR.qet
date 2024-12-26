@@ -1,0 +1,52 @@
+<project version="0.90" title="CAR">
+    <properties>
+        <property show="1" name="saveddate">2024. 09. 25.</property>
+        <property show="1" name="savedfilename">CAR</property>
+        <property show="1" name="saveddate-eu">25-09-2024</property>
+        <property show="1" name="saveddate-us">2024-09-25</property>
+        <property show="1" name="savedtime">15:47</property>
+        <property show="1" name="savedfilepath">C:/SDU/Semester_3/Semester_Project_3/Flow Charts/CAR.qet</property>
+    </properties>
+    <newdiagrams>
+        <border rowsize="80" colsize="60" rows="8" displayrows="true" cols="17" displaycols="true"/>
+        <inset locmach="" folio="%id/%total" filename="" author="" plant="" version="" indexrev="" displayAt="bottom" auto_page_num="" title="" date="null"/>
+        <conductors num="_" bus="" displaytext="1" tension_protocol="" function="" type="multi" horizrotatetext="0" condsize="1" formula="" dash-size="1" vertirotatetext="270" vertical-alignment="AlignRight" color2="#000000" conductor_section="" conductor_color="" numsize="7" cable="" bicolor="false" horizontal-alignment="AlignBottom" onetextperfolio="0" text_color="#000000"/>
+        <report label="%f-%l%c"/>
+        <xrefs>
+            <xref powerprefix="" slave_label="(%f-%l%c)" displayhas="cross" xrefpos="" master_label="%f-%l%c" switchprefix="" type="commutator" snapto="label" offset="0" showpowerctc="true" delayprefix=""/>
+            <xref powerprefix="" slave_label="(%f-%l%c)" displayhas="cross" xrefpos="" master_label="%f-%l%c" switchprefix="" type="coil" snapto="label" offset="0" showpowerctc="true" delayprefix=""/>
+            <xref powerprefix="" slave_label="(%f-%l%c)" displayhas="cross" xrefpos="" master_label="%f-%l%c" switchprefix="" type="protection" snapto="label" offset="0" showpowerctc="true" delayprefix=""/>
+        </xrefs>
+        <conductors_autonums current_autonum="" freeze_new_conductors="false"/>
+        <folio_autonums/>
+        <element_autonums current_autonum="" freeze_new_elements="false"/>
+    </newdiagrams>
+    <diagram rows="8" auto_page_num="" date="null" order="1" filename="" locmach="" cols="17" freezeNewConductor="false" indexrev="" freezeNewElement="false" colsize="60" folio="%id/%total" title="" author="" displayrows="true" height="660" rowsize="80" displaycols="true" plant="" version="0.90+c7891bc4cb0a58100c957a06d79751d3" displayAt="bottom">
+        <defaultconductor num="_" bus="" displaytext="1" tension_protocol="" function="" type="multi" horizrotatetext="0" condsize="1" formula="" dash-size="1" vertirotatetext="270" vertical-alignment="AlignRight" color2="#000000" conductor_section="" conductor_color="" numsize="7" cable="" bicolor="false" horizontal-alignment="AlignBottom" onetextperfolio="0" text_color="#000000"/>
+    </diagram>
+    <collection>
+        <category name="import">
+            <names>
+                <name lang="ca">Elements importats</name>
+                <name lang="ja">インバートされた要素</name>
+                <name lang="cs">Zavedené prvky</name>
+                <name lang="ru">Импортированные элементы</name>
+                <name lang="uk">Імпортовані елементи</name>
+                <name lang="ro">Elemente importate</name>
+                <name lang="hr">Uvezeni elementi</name>
+                <name lang="de">Importierte elemente</name>
+                <name lang="pt">elementos importados</name>
+                <name lang="pl">Elementy importowane</name>
+                <name lang="el">Εισηγμένα στοιχεία</name>
+                <name lang="fr">Éléments importés</name>
+                <name lang="it">Elementi importati</name>
+                <name lang="tr">İthal öğeler</name>
+                <name lang="da">Importerede elementer</name>
+                <name lang="en">Imported elements</name>
+                <name lang="sl">Uvoženi elementi</name>
+                <name lang="es">Elementos importados</name>
+                <name lang="nl">Elementen geïmporteerd</name>
+            </names>
+        </category>
+    </collection>
+</project>

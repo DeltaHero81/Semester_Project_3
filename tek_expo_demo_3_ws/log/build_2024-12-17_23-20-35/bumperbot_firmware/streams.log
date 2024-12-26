@@ -1,0 +1,60 @@
+[0.047s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware -- -j8 -l8
+[0.110s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.694s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.757s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.780s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.810s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.844s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.002s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.008s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.147s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.307s] -- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.308s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.334s] -- Found hardware_interface: 4.20.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[1.847s] -- Configuring done (1.7s)
+[1.877s] -- Generating done (0.0s)
+[1.886s] -- Build files have been written to: /home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware
+[1.949s] [  0%] Built target ament_cmake_python_copy_bumperbot_firmware
+[1.950s] [ 33%] Built target simple_serial_transmitter
+[1.958s] [ 66%] Built target bumperbot_firmware
+[1.960s] [100%] Built target simple_serial_receiver
+[2.237s] running egg_info
+[2.266s] writing bumperbot_firmware.egg-info/PKG-INFO
+[2.266s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[2.266s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[2.350s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[2.351s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[2.383s] [100%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[2.398s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware -- -j8 -l8
+[2.400s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware
+[2.412s] -- Install configuration: ""
+[2.412s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.sh
+[2.413s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.dsv
+[2.413s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info
+[2.413s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.413s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/top_level.txt
+[2.413s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.414s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/PKG-INFO
+[2.414s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware
+[2.414s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/__init__.py
+[2.414s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/simple_serial_receiver.py
+[2.414s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/simple_serial_transmitter.py
+[2.459s] Listing '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware'...
+[2.459s] Compiling '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/simple_serial_receiver.py'...
+[2.459s] Compiling '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/simple_serial_transmitter.py'...
+[2.466s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/bumperbot_interface.xml
+[2.466s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[2.467s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/include/include
+[2.467s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/include/include/bumperbot_firmware
+[2.467s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/include/include/bumperbot_firmware/bumperbot_interface.hpp
+[2.468s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch
+[2.468s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch/hardware_interface.launch.py
+[2.468s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter.py
+[2.468s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver.py
+[2.468s] [31mCMake Error at cmake_install.cmake:109 (file):
+[2.469s]   file INSTALL cannot find
+[2.469s]   "/home/papalist/tek_expo_demo_3_ws/src/bumperbot_firmware/bumperbot_firmware/mpu6050_driver.py":
+[2.469s]   No such file or directory.
+[2.469s] 
+[2.469s] [0m
+[2.470s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware

@@ -1,0 +1,30 @@
+[0.024s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papalist/tek_expo_demo_3_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/papalist/tek_expo_demo_3_ws/install/sllidar_ros2
+[0.204s] -- The C compiler identification is GNU 13.3.0
+[0.430s] -- The CXX compiler identification is GNU 13.3.0
+[0.477s] -- Detecting C compiler ABI info
+[0.699s] -- Detecting C compiler ABI info - done
+[0.723s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.723s] -- Detecting C compile features
+[0.724s] -- Detecting C compile features - done
+[0.750s] -- Detecting CXX compiler ABI info
+[1.196s] -- Detecting CXX compiler ABI info - done
+[1.270s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.270s] -- Detecting CXX compile features
+[1.273s] -- Detecting CXX compile features - done
+[1.290s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.935s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.533s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.834s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.926s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.978s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.055s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.367s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.386s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.718s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.816s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.918s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.349s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[4.676s] -- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+[5.083s] -- Configuring done (5.0s)
+[5.143s] -- Generating done (0.0s)
+[5.163s] -- Build files have been written to: /home/papalist/tek_expo_demo_3_ws/build/sllidar_ros2

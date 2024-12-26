@@ -1,0 +1,4 @@
+gmake[2]: *** No rule to make target '/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/src/mecanum_drive_controller.yaml', needed by 'mecanum_drive_controller_parameters/include/mecanum_drive_controller_parameters.hpp'.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:237: CMakeFiles/mecanum_drive_controller_parameters.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

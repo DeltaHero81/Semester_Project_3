@@ -1,0 +1,49 @@
+[01m[K/home/papalist/tek_expo_demo_3_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:[m[K In member function ‘[01m[Kvoid rf2o::CLaserOdometry2D::[01;32m[KcalculaterangeDerivativesSurface[m[K()[m[K’:
+[01m[K/home/papalist/tek_expo_demo_3_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:486:3:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrixXf[m[K’ was not declared in this scope; did you mean ‘[01m[KEigen::MatrixXf[m[K’?
+  486 |   [01;31m[KMatrixXf[m[K dtitamed = dtita, dtmed = dt;
+      |   [01;31m[K^~~~~~~~[m[K
+      |   [32m[KEigen::MatrixXf[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/papalist/tek_expo_demo_3_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33[m[K,
+                 from [01m[K/home/papalist/tek_expo_demo_3_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:505:1:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::MatrixXf[m[K’ declared here
+  505 | [01;36m[KEIGEN_MAKE_TYPEDEFS_ALL_SIZES[m[K(float,                f)
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/papalist/tek_expo_demo_3_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:487:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ was not declared in this scope
+  487 |   [01;31m[Kvector[m[K<float> svector(3);
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/papalist/tek_expo_demo_3_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:487:3:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/13/vector:66[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:19[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/papalist/tek_expo_demo_3_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:27[m[K:
+[01m[K/usr/include/c++/13/bits/stl_vector.h:428:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector[m[K’
+  428 |     class [01;36m[Kvector[m[K : protected _Vector_base<_Tp, _Alloc>
+      |           [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/13/vector:86:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::pmr::vector[m[K’
+   86 |       using [01;36m[Kvector[m[K = std::vector<_Tp, polymorphic_allocator<_Tp>>;
+      |             [01;36m[K^~~~~~[m[K
+[01m[K/home/papalist/tek_expo_demo_3_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:487:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+  487 |   vector<[01;31m[Kfloat[m[K> svector(3);
+      |          [01;31m[K^~~~~[m[K
+[01m[K/home/papalist/tek_expo_demo_3_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:490:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksvector[m[K’ was not declared in this scope
+  490 |         [01;31m[Ksvector[m[K.at(0) = dtita(u-1); svector.at(1) = dtita(u); svector.at(2) = dtita(u+1);
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/papalist/tek_expo_demo_3_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:492:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdtitamed[m[K’ was not declared in this scope; did you mean ‘[01m[Kdtita[m[K’?
+  492 |         [01;31m[Kdtitamed[m[K(u) = svector.at(1);
+      |         [01;31m[K^~~~~~~~[m[K
+      |         [32m[Kdtita[m[K
+[01m[K/home/papalist/tek_expo_demo_3_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:496:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdtmed[m[K’ was not declared in this scope
+  496 |         [01;31m[Kdtmed[m[K(u) = svector.at(1);
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/papalist/tek_expo_demo_3_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:499:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kdtitamed[m[K’ was not declared in this scope; did you mean ‘[01m[Kdtita[m[K’?
+  499 |   [01;31m[Kdtitamed[m[K(0) = dtitamed(1);
+      |   [01;31m[K^~~~~~~~[m[K
+      |   [32m[Kdtita[m[K
+[01m[K/home/papalist/tek_expo_demo_3_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:501:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kdtmed[m[K’ was not declared in this scope
+  501 |   [01;31m[Kdtmed[m[K(0) = dtmed(1);
+      |   [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/rf2o_laser_odometry_node.dir/build.make:90: CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/rf2o_laser_odometry_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

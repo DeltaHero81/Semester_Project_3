@@ -1,0 +1,40 @@
+[0.044s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_utils -- -j8 -l8
+[0.201s] Built target ament_cmake_python_copy_bumperbot_utils
+[0.696s] running egg_info
+[0.744s] writing bumperbot_utils.egg-info/PKG-INFO
+[0.744s] writing dependency_links to bumperbot_utils.egg-info/dependency_links.txt
+[0.744s] writing top-level names to bumperbot_utils.egg-info/top_level.txt
+[0.885s] reading manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[0.886s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[0.946s] Built target ament_cmake_python_build_bumperbot_utils_egg
+[0.999s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_utils -- -j8 -l8
+[1.001s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_utils
+[1.017s] -- Install configuration: ""
+[1.020s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.sh
+[1.020s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.dsv
+[1.020s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info
+[1.021s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.021s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/top_level.txt
+[1.021s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.022s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/PKG-INFO
+[1.022s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils
+[1.022s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils/__init__.py
+[1.022s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils/safety_stop.py
+[1.072s] Listing '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils'...
+[1.080s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop.py
+[1.080s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/ament_index/resource_index/package_run_dependencies/bumperbot_utils
+[1.080s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/ament_index/resource_index/parent_prefix_path/bumperbot_utils
+[1.080s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.sh
+[1.081s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.dsv
+[1.081s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.sh
+[1.081s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.dsv
+[1.081s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.bash
+[1.081s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.sh
+[1.081s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.zsh
+[1.082s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.dsv
+[1.082s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/package.dsv
+[1.082s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/ament_index/resource_index/packages/bumperbot_utils
+[1.082s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig.cmake
+[1.082s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig-version.cmake
+[1.082s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_utils/share/bumperbot_utils/package.xml
+[1.084s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_utils

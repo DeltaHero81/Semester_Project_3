@@ -1,0 +1,63 @@
+[0.051s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller -- -j8 -l8
+[0.110s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.585s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.644s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.667s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.694s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.727s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.876s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.881s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.018s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.129s] -- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.129s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.172s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.206s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.246s] -- Found tf2_ros: 0.36.4 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.418s] -- Found realtime_tools: 2.8.1 (/opt/ros/jazzy/share/realtime_tools/cmake)
+[1.427s] -- Found controller_interface: 4.20.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.592s] -- Found generate_parameter_library: 0.3.9 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[1.593s] -- Found parameter_traits: 0.3.9 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.606s] -- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.631s] -- Found tf2_geometry_msgs: 0.36.4 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.636s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.638s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.790s] -- Found ament_cmake_gmock: 2.5.2 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[1.791s] -- Found controller_manager: 4.20.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[1.897s] -- Found ros2_control_test_assets: 4.20.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[1.899s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.903s] -- Found ament_cmake_gtest: 2.5.2 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.904s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.070s] -- Configuring done (2.0s)
+[2.161s] -- Generating done (0.1s)
+[2.199s] -- Build files have been written to: /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller
+[2.279s] [  6%] Built target mecanum_drive_controller_parameters
+[2.290s] [ 40%] Built target gmock
+[2.290s] [ 33%] Built target gmock_main
+[2.300s] [ 40%] Built target ament_cmake_python_copy_bumperbot_controller
+[2.339s] [ 46%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o[0m
+[2.339s] [ 53%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o[0m
+[2.392s] [ 66%] Built target test_load_mecanum_drive_controller
+[2.683s] In file included from [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/src/odometry.cpp:15[m[K:
+[2.684s] [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/include/mecanum_drive_controller/odometry.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Krealtime_tools/realtime_buffer.hpp: No such file or directory
+[2.684s]    19 | #include [01;31m[K"realtime_tools/realtime_buffer.hpp"[m[K
+[2.684s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.684s] compilation terminated.
+[2.686s] gmake[2]: *** [CMakeFiles/mecanum_drive_controller.dir/build.make:90: CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o] Error 1
+[2.687s] gmake[2]: *** Waiting for unfinished jobs....
+[2.748s] running egg_info
+[2.778s] writing bumperbot_controller.egg-info/PKG-INFO
+[2.778s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[2.778s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[2.862s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[2.863s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[2.897s] [ 66%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[2.969s] In file included from [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:27[m[K,
+[2.969s]                  from [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/src/mecanum_drive_controller.cpp:15[m[K:
+[2.970s] [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/include/mecanum_drive_controller/odometry.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Krealtime_tools/realtime_buffer.hpp: No such file or directory
+[2.970s]    19 | #include [01;31m[K"realtime_tools/realtime_buffer.hpp"[m[K
+[2.970s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.970s] compilation terminated.
+[2.974s] gmake[2]: *** [CMakeFiles/mecanum_drive_controller.dir/build.make:76: CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o] Error 1
+[2.974s] gmake[1]: *** [CMakeFiles/Makefile2:263: CMakeFiles/mecanum_drive_controller.dir/all] Error 2
+[2.975s] gmake: *** [Makefile:146: all] Error 2
+[2.977s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller -- -j8 -l8

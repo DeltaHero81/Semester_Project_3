@@ -1,0 +1,66 @@
+[0.055s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller -- -j8 -l8
+[0.115s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.626s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.688s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.710s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.738s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.771s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.920s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.923s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.070s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.206s] -- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.206s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.260s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.295s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.333s] -- Found tf2_ros: 0.36.4 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.524s] -- Found controller_interface: 4.20.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.736s] -- Found generate_parameter_library: 0.3.9 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[1.738s] -- Found parameter_traits: 0.3.9 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.752s] -- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.786s] -- Found tf2_geometry_msgs: 0.36.4 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.793s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.796s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.956s] -- Found ament_cmake_gmock: 2.5.2 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[1.958s] -- Found controller_manager: 4.20.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[2.060s] -- Found ros2_control_test_assets: 4.20.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[2.061s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.065s] -- Found ament_cmake_gtest: 2.5.2 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.066s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.256s] -- Configuring done (2.2s)
+[2.324s] -- Generating done (0.0s)
+[2.345s] -- Build files have been written to: /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller
+[2.414s] [  6%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller/mecanum_drive_controller_parameters/include//mecanum_drive_controller_parameters.hpp /home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/src/mecanum_drive_controller.yaml `[0m
+[2.419s] [ 26%] Built target gmock
+[2.421s] [ 40%] Built target gmock_main
+[2.426s] [ 40%] Built target ament_cmake_python_copy_bumperbot_controller
+[2.483s] [ 46%] [32mBuilding CXX object CMakeFiles/test_load_mecanum_drive_controller.dir/test/test_load_mecanum_drive_controller.cpp.o[0m
+[2.814s] running egg_info
+[2.859s] writing bumperbot_controller.egg-info/PKG-INFO
+[2.860s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[2.860s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[2.960s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[2.961s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[3.004s] [ 46%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[3.707s] [ 46%] Built target mecanum_drive_controller_parameters
+[3.739s] [ 60%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o[0m
+[3.739s] [ 60%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o[0m
+[4.036s] In file included from [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/src/odometry.cpp:15[m[K:
+[4.036s] [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/include/mecanum_drive_controller/odometry.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Krealtime_tools/realtime_buffer.hpp: No such file or directory
+[4.036s]    19 | #include [01;31m[K"realtime_tools/realtime_buffer.hpp"[m[K
+[4.036s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.037s] compilation terminated.
+[4.041s] gmake[2]: *** [CMakeFiles/mecanum_drive_controller.dir/build.make:90: CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o] Error 1
+[4.041s] gmake[2]: *** Waiting for unfinished jobs....
+[4.294s] In file included from [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:27[m[K,
+[4.294s]                  from [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/src/mecanum_drive_controller.cpp:15[m[K:
+[4.294s] [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/include/mecanum_drive_controller/odometry.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Krealtime_tools/realtime_buffer.hpp: No such file or directory
+[4.295s]    19 | #include [01;31m[K"realtime_tools/realtime_buffer.hpp"[m[K
+[4.295s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.295s] compilation terminated.
+[4.300s] gmake[2]: *** [CMakeFiles/mecanum_drive_controller.dir/build.make:76: CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o] Error 1
+[4.301s] gmake[1]: *** [CMakeFiles/Makefile2:263: CMakeFiles/mecanum_drive_controller.dir/all] Error 2
+[4.301s] gmake[1]: *** Waiting for unfinished jobs....
+[8.499s] [ 66%] [32m[1mLinking CXX executable test_load_mecanum_drive_controller[0m
+[8.859s] [ 66%] Built target test_load_mecanum_drive_controller
+[8.861s] gmake: *** [Makefile:146: all] Error 2
+[8.863s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller -- -j8 -l8

@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/vboxuser/semester_project/install/drone_localization/include/**",
+        "/home/vboxuser/semester_project/install/drone_firmware/include/**",
+        "/home/vboxuser/semester_project/install/drone_controller/include/**",
+        "/home/vboxuser/semester_project/install/bumperbot_controller/include/**",
+        "/opt/ros/jazzy/include/**",
+        "/home/vboxuser/semester_project/src/bumperbot_controller/include/**",
+        "/home/vboxuser/semester_project/src/drone_controller/include/**",
+        "/home/vboxuser/semester_project/src/drone_firmware/include/**",
+        "/home/vboxuser/semester_project/src/drone_localization/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

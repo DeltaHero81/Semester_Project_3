@@ -1,0 +1,287 @@
+[0.045s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_msgs -- -j8 -l8
+[0.206s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[0.234s] [  1%] Built target ament_cmake_python_copy_bumperbot_msgs
+[0.780s] running egg_info
+[0.782s] creating bumperbot_msgs.egg-info
+[0.829s] writing bumperbot_msgs.egg-info/PKG-INFO
+[0.830s] writing dependency_links to bumperbot_msgs.egg-info/dependency_links.txt
+[0.831s] writing top-level names to bumperbot_msgs.egg-info/top_level.txt
+[0.834s] writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[0.950s] [  1%] Built target bumperbot_msgs__rosidl_generator_type_description
+[0.961s] reading manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[0.964s] writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[0.992s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.021s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.022s] [  5%] Built target ament_cmake_python_build_bumperbot_msgs_egg
+[3.481s] [  7%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/action/detail/fibonacci__description.c.o[0m
+[3.484s] [  9%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/action/detail/fibonacci__type_support.c.o[0m
+[3.488s] [ 11%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__description.c.o[0m
+[3.496s] [ 12%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.c.o[0m
+[3.500s] [ 14%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/action/detail/fibonacci__functions.c.o[0m
+[3.504s] [ 16%] Built target bumperbot_msgs__cpp
+[3.507s] [ 16%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.c.o[0m
+[3.515s] [ 18%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__description.c.o[0m
+[3.538s] [ 20%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.o[0m
+[3.670s] [ 22%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__type_support.c.o[0m
+[4.092s] [ 24%] [32m[1mLinking C shared library libbumperbot_msgs__rosidl_generator_c.so[0m
+[4.258s] [ 24%] Built target bumperbot_msgs__rosidl_generator_c
+[4.319s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.319s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.319s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.320s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.320s] [ 33%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.336s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.737s] [ 37%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[5.754s] [ 38%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/action/fibonacci__type_support.cpp.o[0m
+[5.768s] [ 40%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/srv/get_transform__type_support.cpp.o[0m
+[6.061s] [ 42%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_c.so[0m
+[6.176s] [ 44%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/action/fibonacci__type_support.cpp.o[0m
+[6.177s] [ 46%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/srv/get_transform__type_support.cpp.o[0m
+[6.178s] [ 48%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[6.211s] [ 48%] Built target bumperbot_msgs__rosidl_typesupport_c
+[6.564s] [ 50%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/action/detail/fibonacci__type_support.cpp.o[0m
+[6.573s] [ 51%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/srv/detail/add_two_ints__type_support.cpp.o[0m
+[6.599s] [ 53%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/action/detail/fibonacci__type_support.c.o[0m
+[6.784s] [ 55%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[6.899s] [ 57%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.c.o[0m
+[7.001s] [ 59%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/srv/detail/get_transform__type_support.c.o[0m
+[7.190s] [ 61%] [32m[1mLinking C shared library libbumperbot_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.303s] [ 61%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c
+[7.348s] [ 62%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[7.440s] [ 64%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/dds_fastrtps/get_transform__type_support.cpp.o[0m
+[7.451s] [ 66%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/action/detail/fibonacci__type_support_c.cpp.o[0m
+[7.728s] [ 68%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/srv/detail/get_transform__type_support.cpp.o[0m
+[8.023s] [ 70%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[8.492s] [ 72%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_cpp.so[0m
+[8.870s] [ 72%] Built target bumperbot_msgs__rosidl_typesupport_cpp
+[8.907s] [ 74%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/srv/detail/get_transform__type_support_c.cpp.o[0m
+[9.141s] [ 75%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.318s] [ 75%] Built target bumperbot_msgs__rosidl_typesupport_introspection_cpp
+[9.534s] [ 77%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.668s] [ 77%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_cpp
+[9.693s] [ 79%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[9.807s] [ 79%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c
+[9.837s] [ 79%] Built target bumperbot_msgs
+[9.868s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.163s] [ 81%] Built target bumperbot_msgs__py
+[11.197s] [ 85%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/srv/_add_two_ints_s.c.o[0m
+[11.197s] [ 85%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/action/_fibonacci_s.c.o[0m
+[11.198s] [ 87%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/srv/_get_transform_s.c.o[0m
+[11.639s] [ 88%] [32m[1mLinking C shared library libbumperbot_msgs__rosidl_generator_py.so[0m
+[11.747s] [ 88%] Built target bumperbot_msgs__rosidl_generator_py
+[11.795s] [ 90%] [32mBuilding C object CMakeFiles/bumperbot_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.803s] [ 92%] [32mBuilding C object CMakeFiles/bumperbot_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[11.804s] [ 94%] [32mBuilding C object CMakeFiles/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.139s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[12.149s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.so[0m
+[12.187s] [100%] [32m[1mLinking C shared module rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[12.261s] [100%] Built target bumperbot_msgs_s__rosidl_typesupport_introspection_c
+[12.261s] [100%] Built target bumperbot_msgs_s__rosidl_typesupport_c
+[12.268s] [100%] Built target bumperbot_msgs_s__rosidl_typesupport_fastrtps_c
+[12.291s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_msgs -- -j8 -l8
+[12.292s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_msgs
+[12.313s] -- Install configuration: ""
+[12.314s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/ament_index/resource_index/rosidl_interfaces/bumperbot_msgs
+[12.314s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/action/Fibonacci.json
+[12.315s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.json
+[12.315s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.json
+[12.316s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[12.317s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[12.317s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[12.318s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__description.c
+[12.319s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.h
+[12.319s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.c
+[12.320s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__functions.c
+[12.320s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__functions.h
+[12.320s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__struct.h
+[12.320s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/fibonacci.h
+[12.321s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[12.321s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_generator_c__visibility_control.h
+[12.322s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[12.323s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.h
+[12.326s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/add_two_ints.h
+[12.326s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[12.326s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__functions.h
+[12.326s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.h
+[12.327s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__description.c
+[12.327s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__functions.c
+[12.327s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__struct.h
+[12.327s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__functions.c
+[12.327s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__functions.h
+[12.327s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.h
+[12.328s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__description.c
+[12.328s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.h
+[12.329s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.c
+[12.329s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.c
+[12.329s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/library_path.sh
+[12.329s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/library_path.dsv
+[12.329s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_c.so
+[12.329s] -- Set non-toolchain portion of runtime path of "/home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_c.so" to ""
+[12.330s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[12.330s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[12.330s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[12.331s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[12.335s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[12.336s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.336s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[12.336s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[12.337s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_c.h
+[12.337s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[12.337s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so
+[12.337s] -- Set non-toolchain portion of runtime path of "/home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[12.337s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[12.337s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[12.338s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/fibonacci.hpp
+[12.338s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[12.338s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.hpp
+[12.338s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__struct.hpp
+[12.338s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__builder.hpp
+[12.339s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__traits.hpp
+[12.339s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[12.341s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.342s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[12.342s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/add_two_ints.hpp
+[12.342s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.hpp
+[12.342s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[12.342s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.hpp
+[12.343s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.hpp
+[12.343s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__builder.hpp
+[12.343s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__traits.hpp
+[12.343s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__traits.hpp
+[12.344s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__builder.hpp
+[12.344s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.hpp
+[12.344s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__struct.hpp
+[12.344s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[12.345s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[12.345s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[12.346s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/dds_fastrtps
+[12.346s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[12.346s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[12.346s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.347s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[12.347s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[12.347s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/dds_fastrtps
+[12.347s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[12.348s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_cpp.hpp
+[12.348s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[12.348s] -- Set non-toolchain portion of runtime path of "/home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.348s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[12.350s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[12.350s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[12.350s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.c
+[12.351s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[12.351s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[12.351s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.352s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[12.352s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[12.353s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_c.h
+[12.353s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[12.353s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.c
+[12.353s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.c
+[12.354s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_c.so
+[12.354s] -- Set non-toolchain portion of runtime path of "/home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[12.354s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_c.so
+[12.354s] -- Set non-toolchain portion of runtime path of "/home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_c.so" to ""
+[12.354s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[12.354s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[12.355s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[12.355s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.cpp
+[12.355s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[12.355s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[12.356s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[12.357s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[12.358s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.cpp
+[12.358s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_cpp.hpp
+[12.358s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.cpp
+[12.358s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so
+[12.358s] -- Set non-toolchain portion of runtime path of "/home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[12.358s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so
+[12.359s] -- Set non-toolchain portion of runtime path of "/home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so" to ""
+[12.359s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/pythonpath.sh
+[12.359s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/pythonpath.dsv
+[12.359s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info
+[12.359s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[12.360s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[12.360s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[12.360s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[12.360s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs
+[12.360s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.so
+[12.360s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.so
+[12.361s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/__init__.py
+[12.361s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.361s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_c.c
+[12.361s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action
+[12.361s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action/__init__.py
+[12.362s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action/_fibonacci_s.c
+[12.362s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action/_fibonacci.py
+[12.362s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.so
+[12.362s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv
+[12.362s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/__init__.py
+[12.363s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_get_transform_s.c
+[12.363s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_get_transform.py
+[12.363s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_add_two_ints_s.c
+[12.363s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_add_two_ints.py
+[12.363s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[12.455s] Listing '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs'...
+[12.455s] Compiling '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/__init__.py'...
+[12.455s] Listing '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action'...
+[12.456s] Compiling '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action/__init__.py'...
+[12.456s] Compiling '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action/_fibonacci.py'...
+[12.456s] Listing '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv'...
+[12.456s] Compiling '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/__init__.py'...
+[12.456s] Compiling '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_add_two_ints.py'...
+[12.456s] Compiling '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_get_transform.py'...
+[12.466s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.so
+[12.467s] -- Set non-toolchain portion of runtime path of "/home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[12.468s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.so
+[12.468s] -- Set non-toolchain portion of runtime path of "/home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[12.469s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.so
+[12.469s] -- Set non-toolchain portion of runtime path of "/home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.so" to ""
+[12.470s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_py.so
+[12.472s] -- Set non-toolchain portion of runtime path of "/home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_py.so" to ""
+[12.472s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/action/Fibonacci.idl
+[12.472s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.idl
+[12.473s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.idl
+[12.473s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/action/Fibonacci.action
+[12.473s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.srv
+[12.474s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.srv
+[12.475s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/ament_index/resource_index/package_run_dependencies/bumperbot_msgs
+[12.475s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/ament_index/resource_index/parent_prefix_path/bumperbot_msgs
+[12.475s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.sh
+[12.475s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.dsv
+[12.475s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.sh
+[12.476s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.dsv
+[12.476s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.bash
+[12.476s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.sh
+[12.476s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.zsh
+[12.476s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.dsv
+[12.476s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.dsv
+[12.477s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/ament_index/resource_index/packages/bumperbot_msgs
+[12.477s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport.cmake
+[12.477s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport-noconfig.cmake
+[12.478s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[12.478s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.478s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cppExport.cmake
+[12.479s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.479s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.480s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[12.480s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.480s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport.cmake
+[12.480s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[12.480s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[12.481s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.481s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport.cmake
+[12.482s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[12.483s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport.cmake
+[12.483s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[12.483s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake-extras.cmake
+[12.483s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.483s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.484s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[12.484s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[12.484s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.484s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.484s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig.cmake
+[12.485s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig-version.cmake
+[12.485s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.xml
+[12.491s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_msgs

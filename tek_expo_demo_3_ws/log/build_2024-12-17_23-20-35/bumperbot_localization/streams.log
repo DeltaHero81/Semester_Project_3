@@ -1,0 +1,57 @@
+[0.046s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_localization -- -j8 -l8
+[0.193s] [ 50%] Built target kalman_filter
+[0.210s] [ 50%] Built target ament_cmake_python_copy_bumperbot_localization
+[0.211s] [100%] Built target imu_republisher
+[0.793s] running egg_info
+[0.827s] writing bumperbot_localization.egg-info/PKG-INFO
+[0.827s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[0.827s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[0.964s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.966s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[1.045s] [100%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[1.094s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_localization -- -j8 -l8
+[1.096s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_localization
+[1.117s] -- Install configuration: ""
+[1.117s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.sh
+[1.117s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.dsv
+[1.117s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info
+[1.118s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.118s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/top_level.txt
+[1.119s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.119s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/PKG-INFO
+[1.120s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization
+[1.120s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/__init__.py
+[1.120s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/kalman_filter.py
+[1.120s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/imu_republisher.py
+[1.120s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/odometry_motion_model.py
+[1.174s] Listing '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization'...
+[1.182s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/include/include
+[1.183s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/include/include/bumperbot_localization
+[1.183s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/include/include/bumperbot_localization/kalman_filter.hpp
+[1.185s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter
+[1.187s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher
+[1.188s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/launch
+[1.188s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/launch/global_localization.launch.py
+[1.188s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/launch/local_localization.launch.py
+[1.188s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/config
+[1.195s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/config/ekf.yaml
+[1.195s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/config/amcl.yaml
+[1.195s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter.py
+[1.196s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher.py
+[1.196s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model.py
+[1.196s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
+[1.197s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
+[1.197s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
+[1.197s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.dsv
+[1.198s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.sh
+[1.198s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.dsv
+[1.198s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.bash
+[1.198s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.sh
+[1.198s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.zsh
+[1.199s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.dsv
+[1.199s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv
+[1.201s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/ament_index/resource_index/packages/bumperbot_localization
+[1.201s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig.cmake
+[1.201s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig-version.cmake
+[1.202s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_localization/share/bumperbot_localization/package.xml
+[1.226s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_localization

@@ -1,0 +1,25 @@
+[0.058s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller -- -j8 -l8
+[0.228s] [  6%] Built target mecanum_drive_controller_parameters
+[0.228s] [ 26%] Built target gmock
+[0.251s] [ 40%] Built target gmock_main
+[0.256s] [ 40%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.298s] [ 46%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o[0m
+[0.318s] [ 53%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o[0m
+[0.366s] [ 66%] Built target test_load_mecanum_drive_controller
+[0.940s] running egg_info
+[0.999s] writing bumperbot_controller.egg-info/PKG-INFO
+[1.002s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[1.002s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[1.207s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.208s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.277s] [ 66%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[1.313s] In file included from [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/src/mecanum_drive_controller.cpp:15[m[K:
+[1.313s] [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:32:10:[m[K [01;31m[Kfatal error: [m[Krealtime_tools/realtime_buffer.hpp: No such file or directory
+[1.314s]    32 | #include [01;31m[K"realtime_tools/realtime_buffer.hpp"[m[K
+[1.314s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.314s] compilation terminated.
+[1.320s] gmake[2]: *** [CMakeFiles/mecanum_drive_controller.dir/build.make:76: CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o] Error 1
+[1.321s] gmake[2]: *** Waiting for unfinished jobs....
+[5.353s] gmake[1]: *** [CMakeFiles/Makefile2:263: CMakeFiles/mecanum_drive_controller.dir/all] Error 2
+[5.353s] gmake: *** [Makefile:146: all] Error 2
+[5.356s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller -- -j8 -l8

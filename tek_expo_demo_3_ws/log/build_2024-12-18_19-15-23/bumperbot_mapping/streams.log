@@ -1,0 +1,9 @@
+[0.058s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_mapping -- -j8 -l8
+[0.257s] Built target ament_cmake_python_copy_bumperbot_mapping
+[0.957s] running egg_info
+[1.010s] writing bumperbot_mapping.egg-info/PKG-INFO
+[1.011s] writing dependency_links to bumperbot_mapping.egg-info/dependency_links.txt
+[1.011s] writing top-level names to bumperbot_mapping.egg-info/top_level.txt
+[1.171s] reading manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[1.175s] writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[1.242s] Built target ament_cmake_python_build_bumperbot_mapping_egg

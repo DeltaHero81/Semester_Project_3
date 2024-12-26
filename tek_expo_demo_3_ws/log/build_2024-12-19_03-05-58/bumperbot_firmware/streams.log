@@ -1,0 +1,60 @@
+[0.045s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware -- -j8 -l8
+[0.190s] [  0%] Built target ament_cmake_python_copy_bumperbot_firmware
+[0.232s] [ 33%] Built target simple_serial_transmitter
+[0.234s] [ 66%] Built target simple_serial_receiver
+[0.242s] [100%] Built target bumperbot_firmware
+[0.710s] running egg_info
+[0.757s] writing bumperbot_firmware.egg-info/PKG-INFO
+[0.758s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[0.759s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[0.897s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.898s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.954s] [100%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[0.978s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware -- -j8 -l8
+[0.981s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware
+[1.017s] -- Install configuration: ""
+[1.017s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.sh
+[1.017s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.dsv
+[1.017s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info
+[1.017s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.017s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/top_level.txt
+[1.017s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.018s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/PKG-INFO
+[1.018s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware
+[1.018s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/__init__.py
+[1.018s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/simple_serial_receiver.py
+[1.018s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/simple_serial_transmitter.py
+[1.069s] Listing '/home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware'...
+[1.083s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/bumperbot_interface.xml
+[1.083s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[1.083s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/include/include
+[1.083s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/include/include/bumperbot_firmware
+[1.084s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/include/include/bumperbot_firmware/bumperbot_interface.hpp
+[1.084s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch
+[1.084s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch/hardware_interface.launch.py
+[1.084s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter.py
+[1.084s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver.py
+[1.085s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver
+[1.085s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+[1.085s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+[1.085s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+[1.085s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+[1.086s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+[1.086s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+[1.086s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+[1.086s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+[1.086s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+[1.086s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+[1.087s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+[1.087s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+[1.087s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+[1.087s] -- Installing: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+[1.087s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+[1.087s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware
+[1.088s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.089s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[1.089s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.089s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+[1.089s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+[1.090s] -- Up-to-date: /home/papalist/tek_expo_demo_3_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
+[1.152s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/papalist/tek_expo_demo_3_ws/build/bumperbot_firmware

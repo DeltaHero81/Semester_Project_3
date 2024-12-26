@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:109 (file):
+  file INSTALL cannot find
+  "/home/papalist/tek_expo_demo_3_ws/src/bumperbot_firmware/bumperbot_firmware/mpu6050_driver.py":
+  No such file or directory.
+
+[0m

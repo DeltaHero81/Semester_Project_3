@@ -1,0 +1,62 @@
+[0.061s] Invoking command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller -- -j8 -l8
+[0.123s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.626s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.679s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.696s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.714s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.737s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.840s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.843s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.950s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.076s] -- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.076s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.146s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.192s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.236s] -- Found tf2_ros: 0.36.4 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.415s] -- Found controller_interface: 4.20.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.588s] -- Found generate_parameter_library: 0.3.9 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[1.589s] -- Found parameter_traits: 0.3.9 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.602s] -- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.628s] -- Found tf2_geometry_msgs: 0.36.4 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.632s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.634s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.763s] -- Found ament_cmake_gmock: 2.5.2 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[1.764s] -- Found controller_manager: 4.20.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[1.857s] -- Found ros2_control_test_assets: 4.20.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[1.859s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.862s] -- Found ament_cmake_gtest: 2.5.2 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.863s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.993s] -- Configuring done (1.9s)
+[2.068s] -- Generating done (0.1s)
+[2.090s] -- Build files have been written to: /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller
+[2.153s] [  6%] Built target mecanum_drive_controller_parameters
+[2.158s] [ 20%] Built target gmock_main
+[2.162s] [ 40%] Built target gmock
+[2.163s] [ 40%] Built target ament_cmake_python_copy_bumperbot_controller
+[2.194s] [ 46%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o[0m
+[2.198s] [ 53%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o[0m
+[2.217s] [ 66%] Built target test_load_mecanum_drive_controller
+[2.521s] running egg_info
+[2.556s] writing bumperbot_controller.egg-info/PKG-INFO
+[2.556s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[2.556s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[2.592s] In file included from [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/src/odometry.cpp:15[m[K:
+[2.592s] [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/include/mecanum_drive_controller/odometry.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Krealtime_tools/realtime_buffer.hpp: No such file or directory
+[2.592s]    19 | #include [01;31m[K"realtime_tools/realtime_buffer.hpp"[m[K
+[2.592s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.592s] compilation terminated.
+[2.595s] gmake[2]: *** [CMakeFiles/mecanum_drive_controller.dir/build.make:90: CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o] Error 1
+[2.595s] gmake[2]: *** Waiting for unfinished jobs....
+[2.666s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[2.667s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[2.706s] [ 66%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[2.873s] In file included from [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:27[m[K,
+[2.874s]                  from [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/src/mecanum_drive_controller.cpp:15[m[K:
+[2.874s] [01m[K/home/papalist/tek_expo_demo_3_ws/src/bumperbot_controller/include/mecanum_drive_controller/odometry.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Krealtime_tools/realtime_buffer.hpp: No such file or directory
+[2.875s]    19 | #include [01;31m[K"realtime_tools/realtime_buffer.hpp"[m[K
+[2.875s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.875s] compilation terminated.
+[2.881s] gmake[2]: *** [CMakeFiles/mecanum_drive_controller.dir/build.make:76: CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o] Error 1
+[2.881s] gmake[1]: *** [CMakeFiles/Makefile2:263: CMakeFiles/mecanum_drive_controller.dir/all] Error 2
+[2.881s] gmake: *** [Makefile:146: all] Error 2
+[2.884s] Invoked command in '/home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/papalist/tek_expo_demo_3_ws/build/bumperbot_controller -- -j8 -l8

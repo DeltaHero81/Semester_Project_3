@@ -1,0 +1,9 @@
+<library path="drone_firmware">
+    <class name="drone_firmware/DroneInterface"
+      type="drone_firmware::DroneInterface"
+      base_class_type="hardware_interface::SystemInterface">
+      <description>
+        Drone Hardware Interface
+      </description>
+    </class>
+  </library>
